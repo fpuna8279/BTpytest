@@ -1,2 +1,0 @@
-# BTpytest
-test de app
