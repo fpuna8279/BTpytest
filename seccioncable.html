@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Soporte dimensionamiento conductores BT</title>
+      <link rel="icon" href="assets/imagenes/icono.ico" type="image/ico" sizes="16x16">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/menu.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+      <script src="js/scriptmenu.js" defer></script>
+      <script src="js/scripts.js" defer></script>
+
+    </head>
+    <body>
+        <nav class="menunav">
+              <div class="titulo">
+                  <h1>BTpy Online</h1>
+                  <p>Soporte dimensionamiento conductores BT</p>
+              </div>
+          <ul class="menulist">
+              <li class="menuitems" ><a href="index.html">Inicio</a></li>
+              <li class="menuitems"><a href="info.html">Info</a></li>
+              <li class="menuitems"><a href="seccioncable.html">Dimensionamiento de cables</a></li>
+              <li class="menuitems"><a href="calcPotencia.html">Calculadora de potencia</a></li>
+          </ul>  
+          <div class="toggle-menu">
+              <img id="menu-icon" src="assets/imagenes/svg/iconmenu.svg">
+          </div>       
+        </nav>
+      
+    <div class="container text-center shadow-lg rounded-4 px-2 pb-4 pt-2 px-lg-4 mt-3">
+      <!-- info de referencia y titulos-->
+      <div class="row mb-3">
+        <div class="col-12 alert alert-info border text-start text-black shadow-sm px-lg-4 m-0">
+              <h4 class="fw-bold mb-3">Condiciones de referencia para el dimensionamiento de conductores</h4>
+              <p class="ms-2"><strong>- Temperatura ambiente:</strong> 30°C (líneas no subterráneas), 20°C (líneas subterráneas).</p>
+              <p class="ms-2"><strong>- Método de cálculo:</strong> por corriente o por potencia.</p>
+              <p class="ms-2"><strong>- Factores de corrección:</strong> opcionales, ajustables según el tipo de instalación.</p>
+              <p class="ms-2"><strong>- Material conductor:</strong> solo se consideran <strong>conductores de cobre</strong>. 
+                <a class="fw-medium" href="info.html#material-conductor" target="_blank">Más información click aquí.</a>
+              </p>
+        </div>
+      </div>
+
+      <!-- formulario para el calculo -->
+        <form id="calculadoraSeccion" class="needs-validation" novalidate>
+            <!-- Campo 1: Corriente o Potencia-->
+
+
+            <div class="btn-group btn-group-lg mb-3" role="group" >
+              <input type="radio" class="btn-check" name="btngrupo1" id="corrienteON" autocomplete="off" checked>
+              <label class="btn btn-outline-primary fs-6 fw-medium" for="corrienteON">Corriente</label>
+            
+              <input type="radio" class="btn-check" name="btngrupo1" id="potenciaON" autocomplete="off">
+              <label class="btn btn-outline-primary fs-6 fw-medium" for="potenciaON">Potencia</label>
+            
+            </div>
+
+            <!-- Campo para la corriente -->
+            <div id="Campcorriente" class="row mb-3">
+              <div class="col-sm-4 bg-light d-flex align-items-center  rounded-start fs-6 fw-medium">
+                <label for="corriente" class="form-label mb-0">Corriente (A):</label>
+              </div>
+              <div class="col-sm-8">
+                <input type="number" id="corriente" class="form-control border-primary" placeholder="Ingrese la corriente" step="any" required>
+              </div>              
+            </div>
+
+            <!-- Campo para la potencia -->
+            <div id="grupoPotencia" class="row mb-3 bg-success-subtle rounded d-none ocultar">
+
+                <!-- Campo de potencia -->
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control form-pot" id="potencia" placeholder="Ingrese la potencia" step="any" required disabled>
+                        <label for="potencia">Potencia (W):</label>
+                    </div>
+                  
+                </div>
+              
+                <!-- Selección de tipo de potencia -->
+                <div class="col-12 col-md-6 mt-3">
+                    <div class="form-floating">
+                        <select id="seleccionTipoPotencia" class="form-select form-pot" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="monofasico">Monofásico</option>
+                          <option value="trifasico">Trifásico</option>
+                        </select>
+                        <label for="seleccionTipoPotencia">Tipo de potencia</label>
+                    </div>
+                </div>
+              
+                <!-- Selección del factor de potencia -->
+                <div class="col-12 col-md-6 my-3 py-md-3">
+                  <label class="form-label fw-medium pe-3">Factor de potencia:</label>
+                  <div id="fpbtn" class="btn-group btn-group-sm" role="group">
+                    <input type="radio" class="btn-check" name="btngrupo2" id="fpOFF" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary fs-6 fw-medium" for="fpOFF">NO</label>
+                  
+                    <input type="radio" class="btn-check" name="btngrupo2" id="fpON" autocomplete="off">
+                    <label class="btn btn-outline-primary fs-6 fw-medium" for="fpON">SI</label>
+                  
+                  </div>
+                </div>
+
+                <!-- Campo para ingresar factor de potencia oculto-->
+                <div class="col-12 col-md-6 mb-3 my-md-3 d-md-flex justify-content-md-star">
+                    <p id="fpnorma" class="mb-0 pt-md-3">Se asume un factor de potencia de fp = 0,92 basado en recomendaciones de la ANDE.</p>
+                    <div id="fpingrese" class="form-floating mb-0 d-none ocultar">
+                        <input type="number" id="fpValor" class="form-control" placeholder="Ingrese FP" step="any" min="0" max="1" required disabled>
+                        <label for="fpValor">Ingrese Factor de Potencia</label>
+                     </div>
+                </div>
+              
+            </div>
+          
+            <!-- Campo 2: Tipo de aislamiento -->
+            <div class="row mb-3">
+              <div class="col-sm-4 d-flex align-items-center bg-light rounded-start fs-6 fw-medium">
+                <label for="tipoAislacion" class="form-label mb-0">Tipo de aislamiento:</label>
+              </div>
+              <div class="col-sm-8 d-flex">
+                <select id="tipoAislacion" class="form-select border-primary" required>
+                  <option value="" disabled selected>Seleccione...</option>
+                  <option value="PVC">PVC</option>
+                  <option value="EPR o XLPE">EPR o XLPE</option>
+                </select>
+                <div class="ms-3">
+                  <i class="bi bi-info-circle-fill" data-bs-toggle="modal" data-bs-target="#tipoaislacion"></i>
+                  <!-- modal tipo aislacion -->
+                  <div class="modal fade" id="tipoaislacion" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLabel">Tipos de aislacion</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+                          <div class="accordion" id="accordionAislamiento">
+
+                            <!-- PVC -->
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="PVC">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePVC" aria-expanded="false" aria-controls="collapsePVC">
+                                  PVC (Policloruro de Vinilo)
+                                </button>
+                              </h2>
+                              <div id="collapsePVC" class="accordion-collapse collapse" aria-labelledby="PVC" data-bs-parent="#accordionAislamiento">
+                                <div class="accordion-body text-start">
+                                  <p><strong>Temperatura máxima de servicio:</strong> 70°C (hasta 90°C en condiciones especiales).</p>
+                                  <p><strong>Aplicaciones según la norma:</strong> Instalaciones interiores de baja tensión, preferentemente canalizadas o embutidas.</p>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <!-- XLPE -->
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="XLPE">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseXLPE" aria-expanded="false" aria-controls="collapseXLPE">
+                                  XLPE (Polietileno Reticulado)
+                                </button>
+                              </h2>
+                              <div id="collapseXLPE" class="accordion-collapse collapse" aria-labelledby="XLPE" data-bs-parent="#accordionAislamiento">
+                                <div class="accordion-body text-start">
+                                  <p><strong>Temperatura máxima de servicio:</strong> 90°C o superior</p>
+                                  <p><strong>Aplicaciones según la norma:</strong> Instalaciones con mayor exigencia térmica y mecánica. Adecuado para ambientes industriales o enterrados.</p>
+                                </div>
+                              </div>
+                            </div>
+                          
+                            <!-- EPR -->
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="EPR">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEPR" aria-expanded="false" aria-controls="collapseEPR">
+                                  EPR (Caucho de Etileno-Propileno)
+                                </button>
+                              </h2>
+                              <div id="collapseEPR" class="accordion-collapse collapse" aria-labelledby="EPR" data-bs-parent="#accordionAislamiento">
+                                <div class="accordion-body text-start">
+                                  <p><strong>Temperatura máxima de servicio:</strong> 90°C o superior.</p>
+                                  <p><strong>Aplicaciones según la norma:</strong> Ambientes húmedos, minería, aplicaciones industriales con exigencias mecánicas y térmicas.</p>
+                                </div>
+                              </div>
+                            </div>
+                          
+                          </div>
+                          
+
+                        </div>                       
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+          
+            <!-- Campo 3: Tipo de instalacion -->
+            <div class="row mb-3">
+              <div class="col-md-4 d-flex align-items-center bg-light rounded-start fs-6 fw-medium">
+                <label for="tipoInstalacion" class="form-label mb-0">Tipo de Instalacion:</label>
+              </div>
+              <div class="col-md-8 d-flex">
+                  <select class="form-select border-primary" id="tipoInstalacion" required>
+                      <option value="" disabled selected>Selecciona el tipo instalación</option> 
+                      <option value="A1">A1 - Conductores aislados en electroducto de sección circular embutido en pared térmicamente aislante</option>
+                      <option value="A2">A2 - Cable multipolar en electroducto de sección circular embutido en pared térmicamente aislante</option>
+                      <option value="B1">B1 - Conductores aislados o cables unipolares en electroducto o canaleta adosada, embutida o suspendida</option>
+                      <option value="B2">B2 - Cable multipolar en electroducto o canaleta adosada, embutida o suspendida</option>
+                      <option value="C">C - Cable unipolar o multipolar sobre pared,piso, en bandeja no perforada, estante o techo</option>
+                      <option value="D">D - Cable multipolar en electroducto enterrado en el suelo</option>
+                      <option value="E">E - Cable multipolar al aire libre sobre bandeja perforada, parrilla o soporte</option>
+                      <option value="F">F - Cables unipolares contiguos agrupados al aire libre sobre bandeja o parrilla</option>
+                      <option value="G">G - Cables unipolares espaciados al aire libre</option>
+                  </select>
+                  <div class="ms-3 text-secondary">
+                    <i class="bi bi-info-circle-fill" data-bs-toggle="modal" data-bs-target="#tipoinst"></i>
+                  
+                    <!-- Modal -->
+                    <div class="modal fade" id="tipoinst" tabindex="-1" aria-labelledby="modalinstalacion" aria-hidden="true">
+                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalinstalacion">Métodos de referencia de instalación</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                          </div>
+                  
+                          <div class="modal-body">
+                            <div class="accordion" id="acordeonInstalacion">
+                  
+                              <!-- A1 -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="metodoA1">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseA1" aria-expanded="false" aria-controls="collapseA1">
+                                    A1 - Conductores aislados en electroducto de sección circular embutido en pared térmicamente aislante
+                                  </button>
+                                </h2>
+                                <div id="collapseA1" class="accordion-collapse collapse" aria-labelledby="metodoA1" data-bs-parent="#acordeonInstalacion">
+                                  <div class="accordion-body text-start m-0 p-0">
+                                    <table class="table table-striped table-sm align-middle">
+                                      <tbody>
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en electroducto de sección circular embutido en pared térmicamente aislante</td>
+                                          <td><img src="assets/img_ti/1.webp" width="130"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar embutido directamente en pared térmicamente aislante</td>
+                                          <td><img src="assets/img_ti/2.webp" width="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislado o cables unipolares en moldura</td>
+                                          <td><img src="assets/img_ti/3.webp" width="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados en electroducto, cables unipolares o cable multipolar embutido(s) en marco de puerta</td>
+                                          <td><img src="assets/img_ti/4.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados en electroducto, cables unipolares o cable multipolar embutido(s) en marco de ventana</td>
+                                          <td><img src="assets/img_ti/5.webp" width="140"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- A2 -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="metodoA2">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseA2" aria-expanded="false" aria-controls="collapseA2">
+                                    A2 - Cable multipolar en electroducto de sección circular embutido en pared térmicamente aislante
+                                  </button>
+                                </h2>
+                                <div id="collapseA2" class="accordion-collapse collapse" aria-labelledby="metodoA2" data-bs-parent="#acordeonInstalacion">
+                                  <div class="accordion-body text-start m-0 p-0">
+                                    <table class="table table-striped table-sm align-middle">
+                                      <tbody>
+                                        <tr>
+                                          <td>Cable multipolar en electroducto de sección circular embutido en pared térmicamente aislante</td>
+                                          <td><img src="assets/img_ti/6.webp" width="180"></td>
+                                        </tr>
+                                        
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>                              
+
+                              <!-- B1 -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="metodoB1">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB1" aria-expanded="false" aria-controls="collapseB1">
+                                    B1 - Conductores aislados o cables unipolares en electroducto o canaleta adosada, embutida o suspendida
+                                  </button>
+                                </h2>
+                                <div id="collapseB1" class="accordion-collapse collapse" aria-labelledby="metodoB1" data-bs-parent="#acordeonInstalacion">
+                                  <div class="accordion-body text-start m-0 p-0">
+                                    <table class="table table-striped table-sm align-middle">
+                                      <tbody>
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en electroducto adosado de sección circular sobre pared o separado de ésta menos de 0,3 veces el diámetro del electroducto</td>
+                                          <td><img src="assets/img_ti/7.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en electroducto, de sección no circular, adosado a la pared</td>
+                                          <td><img src="assets/img_ti/8.webp" width="70"></td>
+                                        </tr> 
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en electroducto de sección circular embutido en la pared</td>
+                                          <td><img src="assets/img_ti/9.webp" width="120"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en canaleta cerrada embutida en el piso</td>
+                                          <td><img src="assets/img_ti/10.webp" width="130"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en canaleta o perfilado suspendido(a)</td>
+                                          <td><img src="assets/img_ti/11.webp" width="110"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados en electroducto de sección circular contenido en canaleta ventilada embutida en el piso</td>
+                                          <td><img src="assets/img_ti/12.webp" width="120"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar en canaleta ventilada embutida en el piso</td>
+                                          <td><img src="assets/img_ti/13.webp" width="120"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en canaleta adosada a la pared en recorrido horizontal o vertical</td>
+                                          <td><img src="assets/img_ti/14.webp" width="130"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados en electroducto de sección circular en espacio de construcción</td>
+                                          <td><img src="assets/img_ti/15.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados en electroductos de sección no circular o canaleta en espacio de construcción</td>
+                                          <td><img src="assets/img_ti/16.webp" width="140" height="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en electroducto de sección circular contenido en canaleta cerrada con recorrido horizontal o vertical</td>
+                                          <td><img src="assets/img_ti/17.webp" width="140" height="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cables multipolares en espacio de construcción, sean ellos lanzados directamente sobre la superficie del espacio de construcción, sean instalados en soportes o conductos abiertos (bandeja, estante, tejido o parrilla) dispuesto en el espacio de construcción</td>
+                                          <td><img src="assets/img_ti/18.webp" width="150" height="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados en electroductos de sección no circular embutido en mampostería</td>
+                                          <td><img src="assets/img_ti/19.webp" width="150" height="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en canaleta proveída de separaciones sobre pared</td>
+                                          <td><img src="assets/img_ti/20.webp" width="80"></td>
+                                        </tr> 
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en canaleta embutida en pared</td>
+                                          <td><img src="assets/img_ti/21.webp" width="80"></td>
+                                        </tr>                                        
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div> 
+                              
+                              <!-- B2 -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="metodoB2">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseB2" aria-expanded="false" aria-controls="collapseB2">
+                                    B2 - Cable multipolar en electroducto o canaleta adosada, embutida o suspendida
+                                  </button>
+                                </h2>
+                                <div id="collapseB2" class="accordion-collapse collapse" aria-labelledby="metodoB2" data-bs-parent="#acordeonInstalacion">
+                                  <div class="accordion-body text-start m-0 p-0">
+                                    <table class="table table-striped table-sm align-middle">
+                                      <tbody>
+                                        <tr>
+                                          <td>Conductores aislados en electroducto de sección circular en espacio de construcción</td>
+                                          <td><img src="assets/img_ti/22.webp" width="150" height="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados en electroductos de sección no circular o canaleta en espacio de construcción</td>
+                                          <td><img src="assets/img_ti/23.webp" width="150" height="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados o cables unipolares en electroducto de sección circular contenido en canaleta cerrada con recorrido horizontal o vertical</td>
+                                          <td><img src="assets/img_ti/24.webp" width="150" height="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cables multipolares en espacio de construcción, sean ellos lanzados directamente sobre la superficie del espacio de construcción, sean instalados en soportes o conductos abiertos (bandeja, estante, tejido o parrilla) dispuesto en el espacio de construcción</td>
+                                          <td><img src="assets/img_ti/25.webp" width="150" height="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Conductores aislados en electroductos de sección no-circular embutido en mampostería</td>
+                                          <td><img src="assets/img_ti/26.webp" width="150" height="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar en canaleta proveída de separaciones sobre pared</td>
+                                          <td><img src="assets/img_ti/27.webp" width="70"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar en canaleta embutida en pared</td>
+                                          <td><img src="assets/img_ti/28.webp" width="70"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar en electroducto adosado de sección circular sobre pared o separado de ésta menos de 0,3 veces el diámetro del electroducto</td>
+                                          <td><img src="assets/img_ti/29.webp" width="150"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar en electroducto, de sección no circular, adosado a la pared</td>
+                                          <td><img src="assets/img_ti/30.webp" width="90"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar en electroducto de sección circular embutido en la pared</td>
+                                          <td><img src="assets/img_ti/31.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar en electroducto de sección circular en espacio de construcción</td>
+                                          <td><img src="assets/img_ti/32.webp" width="130"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar en electroducto de sección no circular o canaleta en espacio de construcción</td>
+                                          <td><img src="assets/img_ti/33.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar en electroducto de sección no circular embutido en mampostería</td>
+                                          <td><img src="assets/img_ti/34.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar en canaleta cerrada embutida en el piso</td>
+                                          <td><img src="assets/img_ti/35.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar en canaleta o perfilado suspendido(a)</td>
+                                          <td><img src="assets/img_ti/36.webp" width="80"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar en canaleta adosada a la pared en recorrido horizontal o vertical</td>
+                                          <td><img src="assets/img_ti/37.webp" width="140"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+         
+                              <!-- C -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="metodoC">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseC" aria-expanded="false" aria-controls="collapseC">
+                                    C - Cable unipolar o multipolar sobre pared, piso, en bandeja no perforada, estante o techo
+                                  </button>
+                                </h2>
+                                <div id="collapseC" class="accordion-collapse collapse" aria-labelledby="metodoC" data-bs-parent="#acordeonInstalacion">
+                                  <div class="accordion-body text-start m-0 p-0">
+                                    <table class="table table-striped table-sm align-middle">
+                                      <tbody>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar sobre la pared o separado de ésta menos de 0,3 veces el diámetro del cable</td>
+                                          <td><img src="assets/img_ti/38.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar en bandeja no perforada, perfilado o estante</td>
+                                          <td><img src="assets/img_ti/39.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar embutido(s) directamente en mampostería sin protección mecánica adicional</td>
+                                          <td><img src="assets/img_ti/40.webp" width="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar embutido(s) directamente en mampostería con protección mecánica adicional</td>
+                                          <td><img src="assets/img_ti/41.webp" width="100"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar fijado directamente al techo</td>
+                                          <td><img src="assets/img_ti/42.webp" width="140"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar separado del techo mas de 0,3 veces el diámetro del cable</td>
+                                          <td><img src="assets/img_ti/43.webp" width="130"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>      
+                              
+                              <!-- D -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="metodoD">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseD" aria-expanded="false" aria-controls="collapseD">
+                                    D - Cable multipolar en electroducto enterrado en el suelo
+                                  </button>
+                                </h2>
+                                <div id="collapseD" class="accordion-collapse collapse" aria-labelledby="metodoD" data-bs-parent="#acordeonInstalacion">
+                                  <div class="accordion-body text-start m-0 p-0">
+                                    <table class="table table-striped table-sm align-middle">
+                                      <tbody>
+                                        <tr>
+                                          <td>Cable multipolar en electroducto (de sección circular o no) o en canaleta no ventilada enterrado(a)</td>
+                                          <td><img src="assets/img_ti/44.webp" width="150"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares o cable multipolar directamente enterrado(s), con protección mecánica adicional</td>
+                                          <td><img src="assets/img_ti/45.webp" width="150"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares en electroducto (de sección circular o no) o en canaleta no ventilada enterrado(a)</td>
+                                          <td><img src="assets/img_ti/46.webp" width="150"></td>
+                                        </tr>
+                                        
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- E -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="metodoE">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseE" aria-expanded="false" aria-controls="collapseE">
+                                    E - Cable multipolar al aire libre sobre bandeja perforada, parrilla o soporte
+                                  </button>
+                                </h2>
+                                <div id="collapseE" class="accordion-collapse collapse" aria-labelledby="metodoE" data-bs-parent="#acordeonInstalacion">
+                                  <div class="accordion-body text-start m-0 p-0">
+                                    <table class="table table-striped table-sm align-middle">
+                                      <tbody>
+                                        <tr>
+                                          <td>Cable multipolar en bandeja perforada, horizontal o vertical</td>
+                                          <td><img src="assets/img_ti/47.webp" width="150"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar sobre soportes horizontales, canaleta de alambre, varillas o tejido de alambre</td>
+                                          <td><img src="assets/img_ti/48.webp" width="150"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar separado(s) de la pared mas de 0,3 veces el diámetro del cable</td>
+                                          <td><img src="assets/img_ti/49.webp" width="150"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar en bandeja parrilla</td>
+                                          <td><img src="assets/img_ti/50.webp" width="90"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cable multipolar suspendido(s) por cable de soporte, incorporado o no</td>
+                                          <td><img src="assets/img_ti/51.webp" width="140"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div> 
+                              
+                              <!-- F -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="metodoF">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseF" aria-expanded="false" aria-controls="collapseF">
+                                    F - Cables unipolares contiguos agrupados al aire libre sobre bandeja o parrilla
+                                  </button>
+                                </h2>
+                                <div id="collapseF" class="accordion-collapse collapse" aria-labelledby="metodoF" data-bs-parent="#acordeonInstalacion">
+                                  <div class="accordion-body text-start m-0 p-0">
+                                    <table class="table table-striped table-sm align-middle">
+                                      <tbody>
+                                        <tr>
+                                          <td>Cables unipolares en bandeja perforada, horizontal o vertical</td>
+                                          <td><img src="assets/img_ti/52.webp" width="150"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares sobre soportes horizontales, canaleta de alambre, varillas o tejido de alambre</td>
+                                          <td><img src="assets/img_ti/53.webp" width="150"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares separado(s) de la pared mas de 0,3 veces el diámetro del cable</td>
+                                          <td><img src="assets/img_ti/54.webp" width="150"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares en bandeja parrilla</td>
+                                          <td><img src="assets/img_ti/55.webp" width="90"></td>
+                                        </tr>
+                                        <tr>
+                                          <td>Cables unipolares suspendido(s) por cable de soporte, incorporado o no</td>
+                                          <td><img src="assets/img_ti/56.webp" width="150"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <!-- G -->
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="metodoG">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseG" aria-expanded="false" aria-controls="collapseG">
+                                    G - Cables unipolares espaciados al aire libre
+                                  </button>
+                                </h2>
+                                <div id="collapseG" class="accordion-collapse collapse" aria-labelledby="metodoG" data-bs-parent="#acordeonInstalacion">
+                                  <div class="accordion-body text-start m-0 p-0">
+                                    <table class="table table-striped table-sm align-middle">
+                                      <tbody>
+                                        <tr>
+                                          <td>Conductores desnudos o aislados sobre aisladores</td>
+                                          <td><img src="assets/img_ti/57.webp" width="150"></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div>
+
+                  
+                            </div>
+                          </div>
+                  
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+              </div>
+            </div>
+            <!-- Oculto 1: Disposicion de cables tipo F-->
+            <div id="ocultoF" class="row mb-3 d-none ocultar">
+              <div class="col-md-4 d-flex align-items-center bg-light rounded-start fs-6 fw-medium">
+                <label for="dispConductoresF" class="form-label mb-0">Disposición de cables tipo F:</label>
+              </div>
+              <div class="col-md-8 d-flex">
+                <select id="dispConductoresF" class="form-select form1" disabled required>
+                  <option value="" disabled selected>Selecciona la disposición de cables</option>
+                  <option value="Contiguos">Contiguos</option>
+                  <option value="Trebol">Trebol</option>
+                </select>
+                <div class="ms-3 text-secondary">
+                  <i class="bi bi-info-circle-fill" data-bs-toggle="modal" data-bs-target="#dispF"></i>
+                  <div class="modal fade" id="dispF" tabindex="-1" aria-labelledby="modaldispF" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="modaldispF">Disposición de conductores tipo F</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                        </div>                
+                        <div class="modal-body">
+                          <table class="table table-striped table-sm align-middle">
+                            <tbody>
+                              <tr>
+                                <td>Dos conductores cargados contiguos</td>
+                                <td><img src="assets/imgdisp/1.webp" width="120"></td>
+                              </tr>
+                              <tr>
+                                <td>Tres conductores cargados en trebol</td>
+                                <td><img src="assets/imgdisp/2.webp" width="120"></td>
+                              </tr>
+                              <tr>
+                                <td>Tres conductores cargados en el mismo plano, contiguos</td>
+                                <td><img src="assets/imgdisp/3.webp" width="120"></td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Oculto 2: Disposicion de cables tipo G-->
+            <div id="ocultoG" class="row mb-3 d-none ocultar">
+              <div class="col-md-4 d-flex align-items-center bg-light rounded-start fs-6 fw-medium">
+                <label for="dispConductoresG" class="form-label mb-0">Disposición de cables tipo G</label>
+              </div>
+              <div class="col-md-8 d-flex">
+                  <select id="dispConductoresG" class="form-select form1" disabled required>
+                    <option value="" disabled selected>Selecciona la disposición de cables</option>
+                    <option value="Horizontal">Horizontal espaciados</option>
+                    <option value="Vertical">Vertical espaciados</option>
+                  </select>
+                  <div class="ms-3 text-secondary">
+                    <i class="bi bi-info-circle-fill" data-bs-toggle="modal" data-bs-target="#dispG"></i>
+                    <div class="modal fade" id="dispG" tabindex="-1" aria-labelledby="modaldispG" aria-hidden="true">
+                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modaldispG">Disposición de conductores tipo F</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                          </div>                
+                          <div class="modal-body">
+                            <table class="table table-striped table-sm align-middle">
+                              <tbody>
+                                <tr>
+                                  <td>Tres conductores cargados en el mismo plano, horizontal</td>
+                                  <td><img src="assets/imgdisp/4.webp" width="120"></td>
+                                </tr>
+                                <tr>
+                                  <td>Tres conductores cargados en el mismo plano, vertical</td>
+                                  <td><img src="assets/imgdisp/5.webp" width="120"></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </div>
+                  
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>            
+
+            <!-- Campo 4: Numero de conductores -->
+            <div class="row mb-3">
+              <div class="col-sm-4 d-flex align-items-center bg-light rounded-start fs-6 fw-medium">
+                <label for="nroConductores" class="form-label mb-0">Tipo de red:</label>
+              </div>
+              <div class="col-sm-8 d-flex">
+                <select id="nroConductores" class="form-select border-primary" required>
+                  <option value="" disabled selected>Selecciona tipo de red</option>
+                  <option value="2">Monofásico</option>
+                  <option value="3">Trifásico (cargas equilibradas) sin neutro o con neutro</option>
+                  <option value="4">Trifásico (cargas desequilibradas) con neutro</option>
+                </select>
+                <div class="ms-3">
+                  <i class="bi bi-info-circle-fill" data-bs-toggle="modal" data-bs-target="#nroCond_tipo"></i>
+                  <!-- modal tipo nro conductores -->
+                  <div class="modal fade" id="nroCond_tipo" tabindex="-1" aria-labelledby="modalnroCond_tipo" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="modalnroCond_tipo">Tipos de red</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-start ">
+                          <p>Se determina a partir del tipo de red el número de conductores para calcular la capacidad de conducción del conductor segun la norma INTN NP 2 028 96.</p>
+                          <ul>
+                            <li class="mb-2"><strong>Monofásico (2 conductores):</strong> fase y neutro, o fase-fase.</li>
+                            <li class="mb-2"><strong>Trifásico equilibrado (3 conductores):</strong> tres fases, neutro sin carga o corriente significativa.</li>
+                            <li class="mb-2"><strong>Trifásico desequilibrado (4 conductores):</strong> tres fases y neutro cargado (presencia de armonicos).</li>
+                          </ul>
+                          <p>Si se selecciona el tipo de red <strong>Trifásico desequilibrado</strong> se aplica un factor de corrección igual a 0,86.</p>
+                          <p><a href="info.html#nro_conductores" target="_blank">Mas información click aqui</a></p>
+                        </div>                       
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>             
+            </div>
+
+            <!-- Switch seleccion factores de correccion -->
+            <div class="row mb-3 d-flex justify-content-center bg-light rounded">
+              <div class="col-auto d-flex justify-content-center align-items-center">
+                    <p class="fs-3 fw-medium mb-1 pe-3">Métodos de corrección</p>
+                    <!-- From Uiverse.io by Bodyhc --> 
+                    <label class="button">
+                      <input type="checkbox" id="switch_seleccion" class="toggle">
+                      <span class="slider"></span>
+                    </label>
+              </div> 
+            </div>
+            <!-- Campos factores de correccion inicialmente ocultos -->
+            <div id="factoresCorreccion" class="row d-none ocultar">
+                <!-- Por temperatura -->
+                <div class="col-12 col-xl-4">
+                      <div class="card mb-3">
+                        <div class="card-header bg-secondary text-white d-flex justify-content-between">
+                          <h5>Por temperatura <i class="ms-3 my-5 bi bi-info-circle-fill text-white" data-bs-toggle="modal" data-bs-target="#temp"></i></h5>
+                          <!-- SW de seleccion -->
+                          <div class="mt-3 me-2">
+                            <label class="button">
+                              <input type="checkbox" id="switch_temperatura" class="toggle" data-tipofactor="portemperatura">
+                              <span class="slider"></span>
+                            </label>
+                          </div>
+                        </div>
+                        <!-- modal -->
+                        <div class="modal fade" id="temp" tabindex="-1" aria-labelledby="modaltemp" aria-hidden="true">
+                          <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="modaltemp">Métodos de corrección por temperatura</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                              </div>                
+                              <div class="modal-body text-start">
+                                <p>
+                                  Se aplica este factor cuando la temperatura ambiente es:
+                                </p>
+                                <ul>
+                                  <li>Distinto a 30°C en instalaciones <strong>no-subterráneas.</strong></li>
+                                  <li>Distinto a 20°C en instalaciones <strong>subterráneas.</strong></li>
+                                </ul>
+
+                                <p>
+                                  La Norma INTN NP 2 028 96 establece que en estos casos deben utilizarse factores de corrección según el tipo de aislación del 
+                                  cable (PVC, XLPE o EPR), <a href="info.html#fact_temperatura" target="_blank">mas información click aqui</a>.
+                                </p>
+                                
+                                <p class="fw-bold">
+                                  Este factor se aplica automáticamente en el cálculo si el usuario selecciona una temperatura ambiente diferente a la de referencia.
+                                </p>
+                                
+
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- Campos por temperatura -->
+                        <div id="portemperatura" class="factCorreccion card-body d-flex justify-content-center flex-column d-none ocultar">
+                          <div class="form-floating">
+                            <select id="tipoAmbiente" class="form-select mb-3" required disabled>
+                              <option value="" disabled selected>Seleccione...</option>
+                              <option value="suelo">Suelo (líneas subterráneas)</option>
+                              <option value="ambiente">Ambiente (líneas no-subterráneas)</option>
+                            </select>
+                            <label for="tipoAmbiente">Medio de instalación</label>
+                          </div>
+                          <div class="form-floating">
+                            <select id="temperatura" class="form-select mb-3" required disabled>
+                              <option value="" disabled selected>Seleccione...</option>
+                              <option value="10">10 °C</option>
+                              <option value="15">15 °C</option>
+                              <option value="20">20 °C</option>
+                              <option value="25">25 °C</option>
+                              <option value="30">30 °C</option>
+                              <option value="35">35 °C</option>
+                              <option value="40">40 °C</option>
+                              <option value="45">45 °C</option>
+                              <option value="50">50 °C</option>
+                              <option value="55">55 °C</option>
+                              <option value="60">60 °C</option>
+                              <option value="65">65 °C</option>
+                              <option value="70">70 °C</option>
+                              <option value="75">75 °C</option>
+                              <option value="80">80 °C</option>
+                            </select>
+                            <label for="temperatura">Temperatura de trabajo</label>
+                          </div>
+
+                        </div>
+                    </div> <!-- fin card -->
+                </div>
+
+                <!-- Por agrupamiento -->
+                <div class="col-12 col-xl-4"> 
+                  <div class="card mb-3">
+                    <div class="card-header bg-secondary text-white d-flex justify-content-between">
+                      <h5>Por agrupamiento<i class="ms-3 my-5 bi bi-info-circle-fill text-white" data-bs-toggle="modal" data-bs-target="#agrup"></i></h5>
+                      <!-- SW de seleccion -->
+                      <div class="mt-3 me-2">
+                        <label class="button">
+                          <input type="checkbox" id="switch_agrupacion" class="toggle" data-tipofactor="poragrupamiento">
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <!-- modal -->
+                    <div class="modal fade" id="agrup" tabindex="-1" aria-labelledby="modalagrupamiento" aria-hidden="true">
+                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalagrupamiento">Métodos de corrección por agrupamiento</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                          </div>                
+                          <div class="modal-body text-start">
+                            <p>
+                              Este factor se aplica cuando hay <strong>más de un circuito</strong> ya sea en bandeja, ducto, 
+                              canaleta, directamente en el suelo o en electroductos, <a href="info.html#fact_agrupamiento" target="_blank">mas información click aqui</a>.
+                            </p>
+                            
+                            <p>
+                              La norma NP 2 028 96 establece factores distintos según el <strong>método de agrupamiento</strong>:
+                            </p>
+                            <ul class="">
+                              <li>Camada única</li>
+                              <li>Camada múltiple</li>
+                              <li>Enterrados directamente</li>
+                              <li>Electroductos enterrados</li>
+                            </ul>
+                            
+                            <p class="fw-semibold">
+                              El factor se encuentra automáticamente según el tipo de instalación elegido, el método de agrupamiento, la cantidad de circuitos y otros parámetros. Solo debe aplicarse si realmente hay agrupamiento físico de cables en el mismo recorrido.
+                            </p>
+                            
+                            
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Campos por agrupamiento -->
+                    <div id="poragrupamiento" class="factCorreccion card-body d-flex justify-content-center flex-column d-none ocultar">
+                      <div class="form-floating">
+                      <select id="metodoAgrupamiento" class="form-select mb-3" required disabled>
+                        <option value="" disabled selected>Seleccione...</option>
+                        <option value="unica">Camada única</option>
+                        <option value="multiple">Camada multiple</option>
+                        <option value="enterrado">Directamente enterrado</option>
+                        <option value="electroducto_enterrado">Electroductos enterrados</option>
+                      </select>
+                      <label for="metodoAgrupamiento">Método de agrupamiento</label>
+                      </div>
+                      <!-- camada unica -->
+                      <div class="form-floating camadaUni d-none ocultar">
+                        <select id="forma_agrup" class="form-select mb-3" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="conjunto_al_aire_embutido_ducto">En conjunto: al aire libre o sobre superficie; embutidos; en ducto cerrado</option>
+                          <option value="camada_unica_pared_piso_bandeja_cerrada">Camada única sobre pared, piso, o en bandeja no perforada o estante</option>
+                          <option value="camada_unica_en_techo">Camada única en el techo</option>
+                          <option value="camada_unica_bandeja_perforada">Camada única en bandeja perforada</option>
+                          <option value="camada_unica_parrilla_soporte">Camada única sobre parrilla, soporte etc.</option>
+                        </select>
+                        <label for="forma_agrup">Forma de agrupamiento</label>
+                      </div>
+                      <div class="form-floating camadaUni d-none ocultar">
+                        <select id="nro_circuitos1" class="form-select mb-3" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9 a 11">9 a 11</option>
+                          <option value="12 a 15">12 a 15</option>
+                          <option value="16 a 19">16 a 19</option>
+                          <option value=">=20">≥20</option>
+                        </select>
+                        <label for="nro_circuitos1">Numero de circuitos</label>
+                      </div>
+                      <!-- camada multiple -->
+                      <div class="form-floating camadaMul d-none ocultar">
+                        <select id="nro_camadas" class="form-select mb-3" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4 a 5">4 a 5</option>
+                          <option value="6 a 8">6 a 8</option>
+                          <option value=">=9">≥9</option>
+                        </select>
+                        <label for="nro_camadas">Nro de camadas</label>
+                      </div>
+                      <div class="form-floating camadaMul d-none ocultar">
+                        <select id="nro_circuitos2" class="form-select mb-3" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4 a 5">4 a 5</option>
+                          <option value="6 a 8">6 a 8</option>
+                          <option value=">=9">≥9</option>
+                        </select>
+                        <label for="nro_circuitos2">Numero de circuitos</label>
+                      </div>
+
+                      <!-- directamente enterrados -->
+                      <div class="form-floating direcEnt d-none ocultar">
+                        <select id="separacionCables" class="form-select mb-3" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="nula">Nula</option>
+                          <option value="un_diametro_cable">Un diámetro de cable</option>
+                          <option value="0_125m">0,125m</option>
+                          <option value="0_25m">0,25m</option>
+                          <option value="0_5m">0,5m</option>
+                        </select>
+                        <label for="separacionCables">Distancia entre cables directamente enterrados</label>
+                      </div>
+                      <div class="form-floating direcEnt d-none ocultar">
+                        <select id="nro_circuitos3" class="form-select mb-3" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                        </select>
+                        <label for="nro_circuitos3">Numero de circuitos</label>
+                      </div> 
+                      
+                      <!-- electroductos enterrados -->
+                      <div class="form-floating electrodEnt d-none ocultar">
+                        <select id="tipoCable" class="form-select mb-3" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="monopolar">Monopolar</option>
+                          <option value="multipolar">Multipolar</option>
+                        </select>
+                        <label for="tipoCable">Tipo de cable</label>
+                      </div>
+                      <div class="form-floating electrodEnt d-none ocultar">
+                        <select id="separacionElectroductos" class="form-select mb-3" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="nulo">Nula</option>
+                          <option value="0_25m">0,25m</option>
+                          <option value="0_5m">0,5m</option>
+                          <option value="1m">1,0m</option>
+                        </select>
+                        <label for="separacionElectroductos">Distancia entre cables directamente enterrados</label>
+                      </div>
+                      <div class="form-floating electrodEnt d-none ocultar">
+                        <select id="nro_circuitos4" class="form-select mb-3" required disabled>
+                          <option value="" disabled selected>Seleccione...</option>
+                          <option value="2">2</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                        </select>
+                        <label for="nro_circuitos4">Numero de circuitos</label>
+                      </div> 
+
+                    </div>
+                </div> <!-- fin card --> 
+                </div> <!-- fin por agrupamiento row -->
+
+                <!-- Por caida de tensión -->
+                <div class="col-12 col-xl-4"> 
+                  <div class="card mb-3">
+                    <div class="card-header bg-secondary text-white d-flex justify-content-between">
+                      <h5>Por caída de tensión<i class="ms-3 my-5 bi bi-info-circle-fill text-white" data-bs-toggle="modal" data-bs-target="#caidATension"></i></h5>
+                      <!-- SW de seleccion -->
+                      <div class="mt-3 me-2">
+                        <label class="button">
+                          <input type="checkbox" id="switch_caidaTension" class="toggle" data-tipofactor="porCaidaTension">
+                          <span class="slider"></span>
+                        </label>
+                      </div>
+                    </div>
+                    <!-- modal -->
+                    <div class="modal fade" id="caidATension" tabindex="-1" aria-labelledby="modalcaidaTension" aria-hidden="true">
+                      <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="modalcaidaTension">Métodos de corrección por caída de tensión</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                          </div>                
+                          <div class="modal-body text-start">                                                       
+                            <p>La norma permite los siguientes valores máximos de caída de tensión:</p>
+                            <ul>
+                              <li><strong>5%</strong> desde el puesto de entrega en baja tensión</li>
+                              <li><strong>7%</strong> calculados a partir de los terminales de salida del generador (generador propio)</li>
+                              <li><strong>4%</strong> en circuitos terminales</li>
+                              <li><strong>10%</strong> durante el arranque de motores</li>
+                            </ul> 
+                            <p>
+                              Además, si la longitud del cable supera los <strong>100 metros</strong>, la norma permite un ajuste incremental de la caída de tensión (límite máximo 0,5%).
+                            </p>                     
+                            <p class="fw-semibold">
+                              Este factor se aplica si se activa la opción correspondiente. El cálculo considera la corriente, longitud del cable y sección, suponiendo conductores de cobre.
+                            </p>
+                            <p><a href="info.html#fact_caidatension">Mas información click aqui.</a></p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <!-- Campos por caida de tension -->
+                    <div id="porCaidaTension" class="factCorreccion card-body d-flex justify-content-center flex-column d-none ocultar">
+                      <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="longCable" placeholder="" step="any" required disabled>
+                        <label for="longCable">Longitud (metros):</label>
+                      </div>
+                      <!-- seleccion de criterios -->
+                      <div class="mb-3">
+                        <label class="form-label fw-bold">Criterio de caída de tensión</label>
+                      
+                        <div class="form-check text-start">
+                          <input class="form-check-input criterioCaida" type="radio" name="criterioCaida" id="cd_5" checked>
+                          <label class="form-check-label" for="cd_5">
+                            Caída máxima de <strong>5%</strong> desde el puesto de entrega
+                          </label>
+                        </div>
+                      
+                        <div class="form-check text-start">
+                          <input class="form-check-input criterioCaida" type="radio" name="criterioCaida" id="cd_7">
+                          <label class="form-check-label" for="cd_7">
+                            Caída máxima de <strong>7%</strong> (grupo generador propio)
+                          </label>
+                        </div>
+                      
+                        <div class="form-check text-start">
+                          <input class="form-check-input criterioCaida" type="radio" name="criterioCaida" id="cd_4">
+                          <label class="form-check-label" for="cd_4">
+                            Caída máxima de <strong>4%</strong> (circuito terminal)
+                          </label>
+                        </div>
+                      
+                        <div class="form-check text-start">
+                          <input class="form-check-input criterioCaida" type="radio" name="criterioCaida" id="cd_10">
+                          <label class="form-check-label" for="cd_10">
+                            Caída máxima de <strong>10%</strong> (arranque de motor)
+                          </label>
+                        </div>
+                      </div>
+                      
+
+                      
+
+                      
+
+                      
+                    </div>
+                </div> <!-- fin card -->                   
+                </div> <!-- fin por caida row -->
+
+
+
+              </div>
+            
+          <!-- Boton calcular -->
+
+            <div class="d-flex flex-column flex-md-row justify-content-center  align-items-center gap-3">
+
+              <div class="d-flex flex-wrap gap-2">
+                <button class="btn btn-primary fw-bold me-3 fs-5" type="submit"><i class="bi bi-calculator"></i> Calcular seccion del conductor</button>
+                <button type="button" id="btnLimpiar" class="btn btn-outline-danger"><i class="bi bi-arrow-counterclockwise"></i> Reinicar</button>                
+              </div>
+
+            </div>          
+        </form>
+    </div>
+    <footer class="text-center mt-5 p-4 bg-light">
+      <p class="mb-1">&copy; 2025 BTpy Online - Todos los derechos reservados</p>
+      <small>Desarrollado como parte del Proyecto de Tesis de Ingeniería Eléctrica - Facultad Politécnica</small>
+    </footer>    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </body>
+</html>

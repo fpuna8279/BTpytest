@@ -1,0 +1,7298 @@
+[
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 7,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 11,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": "14,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": "19,5",
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 26,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 34,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 46,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 61,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 80,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 99,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 119,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 151,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 182,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 210,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 240,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 273,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 321,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 367,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 438,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 502,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 578,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 669,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 767,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 7,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": "13,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 18,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 24,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 31,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 42,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 56,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 73,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 89,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 108,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 136,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 164,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 188,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 216,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 245,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 286,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 328,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 390,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 447,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 514,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 593,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 679,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 7,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 11,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 14,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": "18,5",
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 25,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 32,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 43,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 57,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 75,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 92,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 110,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 139,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 167,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 192,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 219,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 248,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 291,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 334,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 398,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 456,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 526,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 609,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 698,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 7,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 13,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": "17,5",
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 23,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 29,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 39,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 52,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 68,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 83,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 99,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 125,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 150,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 172,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 196,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 223,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 261,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 298,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 355,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 406,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 467,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 540,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 618,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 14,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": "17,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 24,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 32,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 41,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 57,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 76,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 101,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 125,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 151,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 192,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 232,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 269,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 309,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 353,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 415,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 477,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 571,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 656,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 758,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 881,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1012,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 8,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 12,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": "15,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 21,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 28,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 36,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 50,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 68,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 89,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 110,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 134,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 171,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 207,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 239,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 275,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 314,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 370,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 426,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 510,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 587,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 678,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 788,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 906,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 13,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": "16,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 23,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 30,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 38,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 52,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 69,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 90,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 111,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 133,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 168,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 201,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 232,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 265,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 300,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 351,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 401,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 477,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 545,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 626,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 723,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 827,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 8,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 12,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 15,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 20,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 27,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 34,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 46,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 62,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 80,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 99,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 118,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 149,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 179,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 206,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 236,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 268,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 313,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 358,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 425,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 486,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 559,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 645,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 738,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 13,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 15,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": "19,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 27,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 36,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 46,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 63,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 85,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 112,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 138,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 168,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 213,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 258,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 299,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 344,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 392,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 461,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 530,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 634,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 729,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 843,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 978,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1125,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 14,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": "17,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 24,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 32,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 41,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 57,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 76,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 96,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 119,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 144,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 184,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 223,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 259,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 299,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 341,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 403,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 464,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 557,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 642,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 743,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 865,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 996,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 15,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 18,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 22,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 29,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 38,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 47,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 63,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 81,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 104,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 125,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 148,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 183,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 216,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 246,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 278,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 312,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 361,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 408,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 478,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 540,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 614,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 700,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 792,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 15,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 18,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 24,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 31,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 39,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 52,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 67,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 86,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 103,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 122,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 151,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 179,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 203,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 230,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 258,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 297,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 336,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 394,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 445,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 506,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 577,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 652,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 14,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 17,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 22,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 30,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 40,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 51,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 70,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 94,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 119,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 148,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 180,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 232,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 282,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 328,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 379,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 434,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 514,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 593,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 715,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 826,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 958,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1118,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1292,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 14,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": "18,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 25,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 34,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 43,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 60,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 80,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 101,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 126,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 153,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 196,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 238,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 276,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 319,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 364,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 430,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 497,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 597,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 689,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 798,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 930,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 1073,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 14,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 17,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 22,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 31,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 41,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 53,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 73,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 99,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 131,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 162,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 196,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 251,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 304,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 352,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 406,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 463,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 546,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 629,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 754,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 868,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 1005,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 1169,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 1346,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 8,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 13,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 17,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 24,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 33,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 43,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 60,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 82,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 110,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 137,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 167,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 216,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 264,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 308,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 356,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 409,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 485,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 561,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 656,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 749,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 855,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 971,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 1079,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 14,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 18,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 25,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 34,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 45,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 63,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 85,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 114,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 143,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 174,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 225,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 275,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 321,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 372,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 427,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 507,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 587,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 689,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 789,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 905,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 1119,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 1296,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 16,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 19,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 24,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 34,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 45,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 59,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 81,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 110,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 146,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 181,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 219,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 281,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 341,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 396,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 456,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 521,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 615,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 709,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 852,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 982,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 1138,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 1325,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 1528,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 13,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 16,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 21,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 29,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 39,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 51,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 71,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 97,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 130,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 162,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 197,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 254,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 311,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 362,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 419,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 480,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 569,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 659,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 795,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 920,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 1070,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 1251,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "PVC",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 1448,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 15,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 19,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 26,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 35,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 45,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 61,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 81,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 106,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 131,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 158,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 200,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 241,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 278,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 318,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 362,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 424,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 486,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 579,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 664,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 765,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 885,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1014,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 13,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 17,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 23,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 31,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 40,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 54,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 73,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 95,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 117,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 141,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 179,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 216,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 249,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 285,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 324,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 380,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 435,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 519,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 595,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 685,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 792,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 908,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 14,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": "18,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 25,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 33,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 42,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 57,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 76,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 99,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 121,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 145,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 183,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 220,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 253,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 290,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 329,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 386,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 442,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 527,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 604,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 696,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 805,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 923,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 9,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 13,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": "16,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 22,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 30,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 38,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 51,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 68,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 89,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 109,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 130,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 164,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 197,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 227,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 259,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 295,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 346,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 396,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 472,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 541,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 623,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 721,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "A2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 826,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 15,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 18,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 23,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 31,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 42,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 54,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 75,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 100,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 133,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 164,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 198,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 253,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 306,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 354,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 407,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 464,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 546,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 628,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 751,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 864,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 998,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1158,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1332,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 13,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 16,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 20,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 28,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 37,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 48,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 66,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 88,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 117,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 144,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 175,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 222,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 269,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 312,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 358,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 408,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 481,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 553,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 661,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 760,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 879,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 1020,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B1",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 1173,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 15,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 17,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 22,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 30,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 40,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 51,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 69,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 91,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 119,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 146,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 175,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 221,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 265,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 305,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 349,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 395,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 462,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 529,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 628,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 718,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 825,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 952,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1088,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 13,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 15,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": "19,5",
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 26,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 35,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 44,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 60,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 80,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 105,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 128,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 154,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 194,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 233,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 268,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 307,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 348,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 407,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 465,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 552,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 631,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 725,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 837,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "B2",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 957,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 16,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 19,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 24,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 33,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 45,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 58,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 80,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 107,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 138,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 171,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 209,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 269,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 328,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 382,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 441,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 506,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 599,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 693,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 835,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 966,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1122,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1311,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1515,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 14,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 17,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 22,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 30,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 40,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 52,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 71,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 96,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 119,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 147,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 179,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 229,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 278,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 322,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 371,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 424,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 500,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 576,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 692,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 797,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 923,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 1074,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "C",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 1237,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 16,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 19,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 24,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 33,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 45,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 58,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 80,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 107,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 138,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 171,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 209,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 269,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 328,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 382,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 441,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 506,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 599,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 693,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 835,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 966,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1122,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1311,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1515,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 11,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 14,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 17,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 22,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 30,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 40,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 52,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 71,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 96,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 119,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 147,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 179,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 229,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 278,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 322,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 371,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 424,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 500,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 576,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 692,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 797,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 923,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 1074,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "D",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 1237,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 13,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 17,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 21,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 26,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 36,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 49,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 63,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 86,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 115,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 149,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 185,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 225,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 289,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 352,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 410,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 473,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 542,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 641,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 741,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 892,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1030,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1196,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1396,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 2,
+    "corriente_maxima": 1613,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 15,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 18,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 23,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 32,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 42,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 54,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 75,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 100,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 127,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 158,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 192,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 246,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 298,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 346,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 399,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 456,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 538,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 621,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 745,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 859,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 995,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 1159,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "E",
+    "disposicion": "N/A",
+    "nro_conductores": 3,
+    "corriente_maxima": 1336,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 13,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 17,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 21,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 27,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 37,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 50,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 65,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 90,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 121,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 161,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 200,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 242,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 310,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 377,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 437,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 504,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 575,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 679,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 783,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 940,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 1083,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 1254,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 1460,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 2,
+    "corriente_maxima": 1683,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 13,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 16,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 21,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 29,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 40,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 53,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 74,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 101,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 135,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 169,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 207,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 268,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 328,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 383,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 444,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 510,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 607,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 703,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 823,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 946,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 1088,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 1252,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Trebol",
+    "nro_conductores": 3,
+    "corriente_maxima": 1420,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 10,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 14,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 17,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 22,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 30,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 42,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 55,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 77,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 105,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 141,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 176,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 216,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 279,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 342,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 400,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 464,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 533,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 634,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 736,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 868,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 998,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 1151,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 1328,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "F",
+    "disposicion": "Contiguos",
+    "nro_conductores": 3,
+    "corriente_maxima": 1511,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 15,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 19,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 23,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 30,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 41,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 56,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 73,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 101,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 137,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 182,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 226,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 275,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 353,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 430,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 500,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 577,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 661,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 781,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 902,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 1085,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 1253,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 1454,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 1696,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Horizontal",
+    "nro_conductores": 3,
+    "corriente_maxima": 1958,
+    "seccion_mm2": 1000
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 12,
+    "seccion_mm2": "0,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 16,
+    "seccion_mm2": "0,75"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 19,
+    "seccion_mm2": 1
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 25,
+    "seccion_mm2": "1,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 35,
+    "seccion_mm2": "2,5"
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 48,
+    "seccion_mm2": 4
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 63,
+    "seccion_mm2": 6
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 88,
+    "seccion_mm2": 10
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 120,
+    "seccion_mm2": 16
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 161,
+    "seccion_mm2": 25
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 201,
+    "seccion_mm2": 35
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 246,
+    "seccion_mm2": 50
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 318,
+    "seccion_mm2": 70
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 389,
+    "seccion_mm2": 95
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 454,
+    "seccion_mm2": 120
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 527,
+    "seccion_mm2": 150
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 605,
+    "seccion_mm2": 185
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 719,
+    "seccion_mm2": 240
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 833,
+    "seccion_mm2": 300
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 1008,
+    "seccion_mm2": 400
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 1169,
+    "seccion_mm2": 500
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 1362,
+    "seccion_mm2": 630
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 1595,
+    "seccion_mm2": 800
+  },
+  {
+    "tipo_aislacion": "EPR o XLPE",
+    "tipo_instalacion": "G",
+    "disposicion": "Vertical",
+    "nro_conductores": 3,
+    "corriente_maxima": 1849,
+    "seccion_mm2": 1000
+  }
+]

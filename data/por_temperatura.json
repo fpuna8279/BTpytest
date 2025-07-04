@@ -1,0 +1,362 @@
+[
+  {
+    "temperatura": 10,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "1,22"
+  },
+  {
+    "temperatura": 15,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "1,17"
+  },
+  {
+    "temperatura": 20,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "1,12"
+  },
+  {
+    "temperatura": 25,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "1,06"
+  },
+  {
+    "temperatura": 30,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": 1
+  },
+  {
+    "temperatura": 35,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,94"
+  },
+  {
+    "temperatura": 40,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,87"
+  },
+  {
+    "temperatura": 45,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,79"
+  },
+  {
+    "temperatura": 50,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,71"
+  },
+  {
+    "temperatura": 55,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,61"
+  },
+  {
+    "temperatura": 60,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,5"
+  },
+  {
+    "temperatura": 65,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "-"
+  },
+  {
+    "temperatura": 70,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "-"
+  },
+  {
+    "temperatura": 75,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "-"
+  },
+  {
+    "temperatura": 80,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "-"
+  },
+  {
+    "temperatura": 10,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "1,15"
+  },
+  {
+    "temperatura": 15,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "1,12"
+  },
+  {
+    "temperatura": 20,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "1,08"
+  },
+  {
+    "temperatura": 25,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "1,04"
+  },
+  {
+    "temperatura": 30,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": 1
+  },
+  {
+    "temperatura": 35,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,96"
+  },
+  {
+    "temperatura": 40,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,91"
+  },
+  {
+    "temperatura": 45,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,87"
+  },
+  {
+    "temperatura": 50,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,82"
+  },
+  {
+    "temperatura": 55,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,76"
+  },
+  {
+    "temperatura": 60,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,71"
+  },
+  {
+    "temperatura": 65,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,65"
+  },
+  {
+    "temperatura": 70,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,58"
+  },
+  {
+    "temperatura": 75,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,5"
+  },
+  {
+    "temperatura": 80,
+    "tipo_ambiente": "ambiente",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,41"
+  },
+  {
+    "temperatura": 10,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "1,1"
+  },
+  {
+    "temperatura": 15,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "1,05"
+  },
+  {
+    "temperatura": 20,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": 1
+  },
+  {
+    "temperatura": 25,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,95"
+  },
+  {
+    "temperatura": 30,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,89"
+  },
+  {
+    "temperatura": 35,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,84"
+  },
+  {
+    "temperatura": 40,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,77"
+  },
+  {
+    "temperatura": 45,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,71"
+  },
+  {
+    "temperatura": 50,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,63"
+  },
+  {
+    "temperatura": 55,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,55"
+  },
+  {
+    "temperatura": 60,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "0,45"
+  },
+  {
+    "temperatura": 65,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "-"
+  },
+  {
+    "temperatura": 70,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "-"
+  },
+  {
+    "temperatura": 75,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "-"
+  },
+  {
+    "temperatura": 80,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "PVC",
+    "factor_correccion_temp": "-"
+  },
+  {
+    "temperatura": 10,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "1,07"
+  },
+  {
+    "temperatura": 15,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "1,04"
+  },
+  {
+    "temperatura": 20,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": 1
+  },
+  {
+    "temperatura": 25,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,96"
+  },
+  {
+    "temperatura": 30,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,93"
+  },
+  {
+    "temperatura": 35,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,89"
+  },
+  {
+    "temperatura": 40,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,85"
+  },
+  {
+    "temperatura": 45,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,8"
+  },
+  {
+    "temperatura": 50,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,76"
+  },
+  {
+    "temperatura": 55,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,71"
+  },
+  {
+    "temperatura": 60,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,65"
+  },
+  {
+    "temperatura": 65,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,6"
+  },
+  {
+    "temperatura": 70,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,53"
+  },
+  {
+    "temperatura": 75,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,46"
+  },
+  {
+    "temperatura": 80,
+    "tipo_ambiente": "suelo",
+    "tipo_aislacion": "EPR o XLPE",
+    "factor_correccion_temp": "0,38"
+  }
+]

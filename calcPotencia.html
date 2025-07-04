@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Soporte dimensionamiento conductores BT</title>
+        <link rel="icon" href="assets/imagenes/icono.ico" type="image/ico" sizes="16x16">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <script src="js/scriptmenu.js" defer></script>  
+        <script src="js/calcpot.js" defer></script> 
+      </head>
+<body>
+      
+      <nav class="menunav">
+            <div class="titulo">
+                <h1>BTpy Online</h1>
+                <p>Soporte dimensionamiento conductores BT</p>
+            </div>
+        <ul class="menulist">
+            <li class="menuitems" ><a href="index.html">Inicio</a></li>
+            <li class="menuitems"><a href="info.html">Info</a></li>
+            <li class="menuitems"><a href="seccioncable.html">Dimensionamiento de cables</a></li>
+            <li class="menuitems"><a href="calcPotencia.html">Calculadora de potencia</a></li>
+        </ul>  
+        <div class="toggle-menu">
+            <img id="menu-icon" src="assets/imagenes/svg/iconmenu.svg">
+        </div>       
+      </nav>
+
+      <div class="container shadow-lg">
+
+  <div class="row p-2">
+    <div class="col-12 alert alert-primary text-black border shadow-sm p-4">
+     
+        <h4 class="mb-2 fw-bold">Calculadora de Potencia Instalada/Declarada</h4>
+        <p class="mb-1">Esta herramienta permite estimar la potencia total instalada y declarada, así como la corriente declarada estimada en 
+          una instalacion en baja tensión, a partir de los equipos 
+          eléctricos presentes, incluyendo opciones estándar y personalizadas. <a class="fw-medium" href="info.html#info_calcPot" target="_blank">Mas información click aqui.</a></p>
+        <p class="mb-0"><strong>Referencia:</strong> Las potencias asignadas a los electrodomésticos se basan en publicaciones de la Administración Nacional de Electricidad (ANDE).</p>
+
+   
+    </div>
+  </div>
+
+        <div class="row mb-2">
+          <div class="col-12">
+            <form id="cal_potInst_ande">
+              <div class="row g-4">
+
+                <div class="col-12 col-lg-4">
+                  <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white fw-semibold fs-5">
+                      Cocina y refrigeración
+                    </div>
+                    <div class="card-body p-3">
+            
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary border border-primary" type="checkbox" id="check-1" value="3500">
+                        </div>
+                        <label for="check-1" class="flex-grow-1 ms-1">Cocina a placa eléctrica (2 hornallas) 3.500 W</label>
+                        <input type="number" id="cantidad-1" class="form-control form-control-sm ms-2 text-center" min="0" step="1" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-2" value="2700">
+                        </div>
+                        <label for="check-2" class="flex-grow-1 ms-1">Horno eléctrico 2.700 W</label>
+                        <input type="number" id="cantidad-2" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-3" value="2000">
+                        </div>
+                        <label for="check-3" class="flex-grow-1 ms-1">Cocina eléctrica a inducción (2 hornallas) 2.000 W</label>
+                        <input type="number" id="cantidad-3" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-4" value="1500">
+                        </div>
+                        <label for="check-4" class="flex-grow-1 ms-1">Microondas 1.500 W</label>
+                        <input type="number" id="cantidad-4" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-5" value="300">
+                        </div>
+                        <label for="check-5" class="flex-grow-1 ms-1">Heladera 300 W</label>
+                        <input type="number" id="cantidad-5" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-6" value="300">
+                        </div>
+                        <label for="check-6" class="flex-grow-1 ms-1">Licuadora 300 W</label>
+                        <input type="number" id="cantidad-6" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-7" value="1500">
+                        </div>
+                        <label for="check-7" class="flex-grow-1 ms-1">Congeladora-Freezer 1.500 W</label>
+                        <input type="number" id="cantidad-7" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+            
+                    </div>
+                  </div>
+                </div>
+            
+
+                <div class="col-12 col-lg-4">
+                  <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white fw-semibold fs-5">
+                      Climatización e higiene
+                    </div>
+                    <div class="card-body p-3">
+            
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-8" value="5500">
+                        </div>
+                        <label for="check-8" class="flex-grow-1 ms-1">Ducha eléctrica 5.500 W</label>
+                        <input type="number" id="cantidad-8" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-9" value="1500">
+                        </div>
+                        <label for="check-9" class="flex-grow-1 ms-1">Termocalefón 1.500 W</label>
+                        <input type="number" id="cantidad-9" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-10" value="1000">
+                        </div>
+                        <label for="check-10" class="flex-grow-1 ms-1">Lavarropas 1.000 W</label>
+                        <input type="number" id="cantidad-10" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-11" value="1000">
+                        </div>
+                        <label for="check-11" class="flex-grow-1 ms-1">Plancha 1.000 W</label>
+                        <input type="number" id="cantidad-11" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-12" value="80">
+                        </div>
+                        <label for="check-12" class="flex-grow-1 ms-1">Ventilador de techo 80 W</label>
+                        <input type="number" id="cantidad-12" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-13" value="1500">
+                        </div>
+                        <label for="check-13" class="flex-grow-1 ms-1">Acondicionador de aire (24°C) <br> 1.500 W</label>
+                        <input type="number" id="cantidad-13" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-14" value="1200">
+                        </div>
+                        <label for="check-14" class="flex-grow-1 ms-1">Estufa 1.200 W</label>
+                        <input type="number" id="cantidad-14" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+            
+                    </div>
+                  </div>
+                </div>
+            
+
+                <div class="col-12 col-lg-4">
+                  <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white fw-semibold fs-5">
+                      Iluminación y electrónicos
+                    </div>
+                    <div class="card-body p-3">
+            
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-15" value="100">
+                        </div>
+                        <label for="check-15" class="flex-grow-1 ms-1">Foco común 100 W</label>
+                        <input type="number" id="cantidad-15" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-16" value="40">
+                        </div>
+                        <label for="check-16" class="flex-grow-1 ms-1">Fluorescente 40 W</label>
+                        <input type="number" id="cantidad-16" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-17" value="25">
+                        </div>
+                        <label for="check-17" class="flex-grow-1 ms-1">Foco de bajo consumo 25 W</label>
+                        <input type="number" id="cantidad-17" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-18" value="9">
+                        </div>
+                        <label for="check-18" class="flex-grow-1 ms-1">Foco LED 9 W</label>
+                        <input type="number" id="cantidad-18" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center mb-3">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-19" value="150">
+                        </div>
+                        <label for="check-19" class="flex-grow-1 ms-1">Televisor 150 W</label>
+                        <input type="number" id="cantidad-19" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+                      <hr>
+                      <div class="d-flex align-items-center">
+                        <div class="form-check me-2">
+                          <input class="form-check-input border border-primary" type="checkbox" id="check-20" value="200">
+                        </div>
+                        <label for="check-20" class="flex-grow-1 ms-1">Computadora 200 W</label>
+                        <input type="number" id="cantidad-20" class="form-control form-control-sm ms-2 text-center" min="0" value="0" disabled style="width: 60px;">
+                      </div>
+            
+                    </div>
+                  </div>
+                </div>
+            
+              </div>
+            </form>
+          </div>
+        
+        </div>
+        <!-- fin row form1-->
+          
+
+        <div class="accordion" id="agregarEquipos">
+
+          <div class="accordion-item bg-body-secondary rounded-top">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed fw-semibold fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#mostrarequipos" aria-expanded="false" aria-controls="mostrarequipos">
+                Agregar equipo o electrodoméstico <span id="nroEquipo" class="badge text-bg-secondary ms-2"></span>
+                
+              </button>
+            </h2>
+            <div id="mostrarequipos" class="accordion-collapse collapse" data-bs-parent="#agregarEquipos">
+              <div class="accordion-body">
+                <div class="row py-2 bg-body-secondary">
+                  <div class="col-12">
+                    <form id="cal_potInst_manual">
+                      
+                      <div class="row g-2">
+                      <div class="col-12 col-lg-5">
+                        <div class="row align-items-center">
+                          <div class="col-auto">
+                            <label for="nombre" class="form-label mb-0 fs-6 fw-medium">Nombre del equipo:</label>
+                          </div>
+                          <div class="col">
+                            <input class="form-control border-primary" type="text" placeholder="Ingrese el nombre" id="nombre">
+                          </div>                   
+                        </div>
+                        
+                      </div>
+                      <div class="col-12 col-lg-4">
+                        <div class="row align-items-center">
+                          <div class="col-auto">
+                            <label for="potencia_manual" class="form-label mb-0 fs-6 fw-medium">Potencia en Watts:</label>
+                          </div>
+                          <div class="col">
+                            <input class="form-control border-primary" type="number" id="potencia_manual" placeholder="Ingrese el valor">
+                          </div>                    
+                        </div>
+                      </div>
+
+                      <div class="col-12 col-lg-2">
+                        <div class="row align-items-center">
+                          <div class="col-auto">
+                            <label for="cantidad_manual" class="form-label mb-0 fs-6 fw-medium">Cantidad: </label>
+                          </div>
+                          <div class="col">
+                            <input class="form-control border-primary" type="number" id="cantidad_manual" min="0" step="1">
+                          </div> 
+                        </div>
+                      </div>
+                      <div class="col-12 col-lg-1">
+                        <div class="row align-items-center">
+                          <div class="col text-center">
+                            <button id="btnAgregar" class="btn btn-success" type="button" onclick="agregarElectro()">Agregar</button>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+                      </div>            
+
+                    
+                    </form>
+                  </div>
+                  
+                  
+                </div> 
+                
+                <div id="subtext_listPot" class="row d-none bg-body-secondary"><div class="col-12"><h5>Equipos agregados manualmente</h5></div></div>
+                <div id="listaElectro" class="row mb-1 gx-4 bg-body-secondary"></div>
+              
+              </div>
+            </div>
+          </div>
+
+        </div>        
+        
+
+
+        
+         <!-- botones calcular -->
+            <div class="d-flex flex-column flex-md-row justify-content-center  align-items-center gap-3 py-3">
+
+              <div class="d-flex alig-items-center p-2 border border-primary rounded bg-light fs-5">
+                <strong class="text-primary me-2">Potencia instalada total:</strong>
+                <span id="resultadoPotencia" class="fs-5 fw-bold text-dark">0 W</span>
+              </div>
+
+              <div class="d-flex flex-wrap gap-2">
+                <button type="button" id="potDecl" class="btn btn-primary fw-bold fs-5 me-3"><i class="bi bi-calculator"></i> Calcular Potencia Declarada</button>
+                <button type="button" id="btnReset" class="btn btn-outline-danger"><i class="bi bi-arrow-counterclockwise"></i> Reinicar</button>                
+              </div>
+
+            </div>
+
+        <div id="cardResultados" class="card border-success mt-3 d-none despliega p-0">
+          <div class="card-header bg-success text-white fw-semibold fs-5 text-center">
+            Resultados del cálculo
+          </div>
+          <div class="card-body">
+            <div class="row g-3 text-center">
+              <div class="col-md-4">
+                <div class="border rounded p-3 h-100 shadow-sm">
+                  <div class="text-muted small">Tipo de red</div>
+                  <div class="fs-5 fw-bold text-dark" id="resTipoConexion"></div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="border rounded p-3 h-100 shadow-sm">
+                  <div class="text-muted small">Potencia declarada</div>
+                  <div class="fs-5 fw-bold text-dark" id="resPotDeclarada"></div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="border rounded p-3 h-100 shadow-sm">
+                  <div class="text-muted small">Corriente declarada aproximada</div>
+                  <div class="fs-5 fw-bold text-dark" id="resCorriente"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+          
+        
+
+
+
+
+      </div> <!-- fin container -->
+      
+  <footer class="text-center mt-5 p-4 bg-light">
+    <p class="mb-1">&copy; 2025 BTpy Online - Todos los derechos reservados</p>
+    <small>Desarrollado como parte del Proyecto de Tesis de Ingeniería Eléctrica - Facultad Politécnica</small>
+  </footer>      
+      
+      
+      
+
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+
+    </body>
+
+    
+
+
+
+</html>

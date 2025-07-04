@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Soporte dimensionamiento conductores BT</title>
+        <link rel="icon" href="assets/imagenes/icono.ico" type="image/ico" sizes="16x16">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <script src="js/scriptmenu.js" defer></script> 
+      </head>
+    <body>
+        <nav class="menunav">
+            <div class="titulo">
+                <h1>BTpy Online</h1>
+                <p>Soporte dimensionamiento conductores BT</p>
+            </div>
+        <ul class="menulist">
+            <li class="menuitems" ><a href="index.html">Inicio</a></li>
+            <li class="menuitems"><a href="info.html">Info</a></li>
+            <li class="menuitems"><a href="seccioncable.html">Dimensionamiento de cables</a></li>
+            <li class="menuitems"><a href="calcPotencia.html">Calculadora de potencia</a></li>
+        </ul>  
+        <div class="toggle-menu">
+            <img id="menu-icon" src="assets/imagenes/svg/iconmenu.svg">
+        </div>       
+      </nav>
+
+      <div class="container my-5">
+        <h2 class="mb-4 text-center">Informaciones Generales sobre conductores y cálculo de potencia</h2>
+        <p class="fst-italic text-secondary text-center mx-3 fs-5">“Esta sección reúne información técnica complementaria utilizada en los cálculos basados la Norma Paraguaya NP 2 028 96 y en el reglamento de la ANDE para instalaciónes en baja tensión"</p>
+      
+        <div class="accordion" id="infoAccordion">
+          <!-- Informaciones calc conductores -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="infocalcCond">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseinfocalcCond" aria-expanded="false" aria-controls="collapseinfocalcCond">
+                Consideraciones técnicas adoptadas en el dimensionamiento de conductores
+              </button>
+            </h2>
+            <div id="collapseinfocalcCond" class="accordion-collapse collapse" aria-labelledby="infocalcCond" data-bs-parent="#infoAccordion">
+              <div class="accordion-body">
+                <p>La aplicación BTpy Online ha sido diseñada siguiendo los criterios de la Norma INTN NP 2 028 96, tomando en cuenta las siguientes consideraciones específicas:</p>
+
+                  <h6 class="fw-bold mb-2">Tipo de conductor</h6>
+                  <p>Se consideran exclusivamente <strong>conductores de cobre</strong>.  
+                  La resistividad adoptada para los cálculos de caída de tensión es <strong>0,0175Ω·mm²/m</strong>.  
+                  No se contemplan conductores de aluminio ni de otros materiales.</p>
+                  <h6 class="fw-bold mb-2 mt-3">Factor de potencia asumido</h6>
+                  <p>Se adoptó un valor de 0,92 conforme al mínimo exigido por el Pliego de Tarifas N.º 21 de la ANDE para el factor de potencia medio 
+                  mensual en instalaciones de baja tensión. <br>
+                  Esta elección representa un valor típico en sistemas residenciales y comerciales, ya que la norma Paraguaya NP 2 028 96 <strong>no especifica un valor explícito</strong>.  
+                  <br>El usuario puede ingresar un valor diferente si dispone de datos más precisos.
+                  </p>
+                
+                  <h6 class="fw-bold mb-2 mt-3">Temperatura ambiente de referencia</h6>
+                  <p>
+                    Se utiliza:
+                    <ul>
+                      <li><strong>30°C</strong> para instalaciones no subterráneas.</li>
+                      <li><strong>20°C</strong> para instalaciones subterráneas.</li>
+                    </ul>
+                    Los factores de corrección por temperatura se aplican si el usuario selecciona temperaturas diferentes a las de referencia.
+                  </p>
+                
+                  <h6 class="fw-bold mb-2 mt-3">Agrupamiento de circuitos</h6>
+                  <p>
+                    Cuando varios circuitos comparten el mismo recorrido, se aplican factores de corrección de agrupamiento según:
+                    <ul>
+                      <li>Método de agrupamiento (camada única, múltiple, enterrado, electroductos enterrados).</li>
+                      <li>Cantidad de circuitos o disposición de los cables.</li>
+                    </ul>
+                    El usuario debe activar esta opción manualmente.
+                  </p>
+                
+                  
+                
+                  <h6 class="fw-bold mb-2 mt-3">Corrección para neutro cargado</h6>
+                  <p>
+                    En redes trifásicas con neutro cargado (desequilibrio o armónicos), se aplica un <strong>factor de corrección de 0,86</strong> sobre la corriente de proyecto, conforme a la Norma NP 2 028 96.
+                  </p>
+                
+                  <h6 class="fw-bold mb-2 mt-3">Criterios de caída de tensión</h6>
+                  <p>
+                    Los límites máximos considerados son:
+                    <ul>
+                      <li><strong>5%</strong> desde el puesto de entrega en baja tensión.</li>
+                      <li><strong>7%</strong> desde transformador propio o distribuidora.</li>
+                      <li><strong>4%</strong> en circuitos terminales.</li>
+                      <li><strong>10%</strong> durante el arranque de motores.</li>
+                    </ul>
+                    Para caída de tensión ≥10%, el cálculo incluye tanto resistencia como reactancia del conductor.
+                  </p>
+                
+                  <h6 class="fw-bold mb-2 mt-3">Ajuste por longitud de cable</h6>
+                  <p>
+                    Cuando la longitud de cable supera los <strong>100 metros</strong>:
+                    <ul>
+                      <li>Se adiciona <strong>0,005%</strong> de caída de tensión por cada metro excedente.</li>
+                      <li>El incremento permitido se limita a un máximo de <strong>+0,5%</strong>.</li>
+                    </ul>
+                    Si se supera este límite, el sistema solicita reconsiderar la instalación.
+                  </p>
+                
+                  <h6 class="fw-bold mb-2 mt-3">Selección final de la sección</h6>
+                  <p>
+                    Se compara la sección que satisface:
+                    <ul>
+                      <li>La capacidad de conducción corregida.</li>
+                      <li>El cumplimiento de la caída de tensión corregida.</li>
+                    </ul>
+                    Se adopta siempre la <strong>mayor sección resultante</strong> para garantizar la seguridad y el correcto funcionamiento de la instalación.
+                  </p>
+                
+              </div> <!-- hola  -->
+              
+            </div>
+          </div>
+
+          <!-- Informaciones calculo de potencia potencia -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="infocalcPot">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseinfocalcPot" aria-expanded="false" aria-controls="collapseinfocalcPot">
+                Consideraciones técnicas adoptadas en el calculo de potencia instalada y declarada
+              </button>
+            </h2>
+            <div id="collapseinfocalcPot" class="accordion-collapse collapse" aria-labelledby="infocalcPot" data-bs-parent="#infoAccordion">
+              <div class="accordion-body">
+                <p id="info_calcPot">La herramienta <strong>BTpy Online</strong> permite estimar la potencia total instalada y la potencia declarada de una instalación residencial en baja tensión, basándose en las siguientes consideraciones:</p>
+
+                <h6 class="fw-bold mb-2">Base de datos de potencias</h6>
+                <p>Las potencias asignadas a los electrodomésticos se basan en valores típicos tomados de publicaciones de la <strong>ANDE</strong>, tabla de consumo de electrodomésticows del hogar. El usuario también puede ingresar equipos y potencias personalizadas.</p>
+
+                <h6 class="fw-bold mb-2 mt-3">Potencia instalada</h6>
+                <p>Corresponde a la suma de todas las cargas eléctricas presentes en la instalación. Se calcula multiplicando la potencia de cada equipo por su cantidad. Incluye tanto equipos seleccionados como ingresados manualmente.</p>
+
+                <h6 class="fw-bold mb-2 mt-3">Potencia declarada</h6>
+                <p>La potencia declarada se obtiene aplicando un <strong>factor de demanda</strong> a la potencia instalada, de acuerdo con la tabla del <strong>Anexo 3 del Reglamento de Baja Tensión de la ANDE</strong>.</p>
+                <ul>
+                  <li>El factor varía según el rango de potencia instalada (kW).</li>
+                  <li>La potencia declarada representa la demanda máxima esperada.</li>
+                </ul>
+                <h6 class="fw-bold mb-2 mt-3">Tabla de factores de demanda</h6>
+
+                  <div class="table-responsive">
+                    <table class="table table-bordered table-sm text-center align-middle">
+                      <thead class="table-primary">
+                        <tr>
+                          <th>Circuitos con<br>Carga Instalada (kW)</th>
+                          <th>Factor de<br>demanda</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr><td>hasta 2,7</td><td>1,00</td></tr>
+                        <tr><td>hasta 3,8</td><td>0,95</td></tr>
+                        <tr><td>hasta 7,2</td><td>0,90</td></tr>
+                        <tr><td>hasta 12</td><td>0,85</td></tr>
+                        <tr><td>hasta 20</td><td>0,80</td></tr>
+                        <tr><td>hasta 30</td><td>0,75</td></tr>
+                        <tr><td>hasta 50</td><td>0,70</td></tr>
+                        <tr><td>hasta 80</td><td>0,65</td></tr>
+                        <tr><td>hasta 120</td><td>0,60</td></tr>
+                        <tr><td>hasta 170</td><td>0,55</td></tr>
+                        <tr><td>hasta 250</td><td>0,50</td></tr>
+                        <tr><td>más de 250</td><td>0,45</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                <h6 class="fw-bold mb-2 mt-3">Determinación del tipo de red</h6>
+                <p>Según la potencia instalada total:</p>
+                <ul>
+                  <li><strong>Hasta 10 kW:</strong> Monofásico.</li>
+                  <li><strong>Entre 10 y 40 kW:</strong> Trifásico.</li>
+                  <li><strong>Más de 40 kW:</strong> Se indica contacto con la ANDE, ya que podría requerir conexión en media tensión.</li>
+                </ul>
+
+                <h6 class="fw-bold mb-2 mt-3">Cálculo de corriente aproximada</h6>
+                <p>La corriente se estima en base a la potencia declarada y el tipo de red (220 V o 380 V), sin considerar el factor de potencia, ya que se trabaja con potencia activa.</p>
+
+                
+              </div>
+              
+            </div>
+          </div>
+      
+          <!-- Tipos de conductores -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTipos">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTipos" aria-expanded="false" aria-controls="collapseTipos">
+                1. Tipos de conductores
+              </button>
+            </h2>
+            <div id="collapseTipos" class="accordion-collapse collapse" aria-labelledby="headingTipos" data-bs-parent="#infoAccordion">
+              <div class="accordion-body px-1 p-lg-3">
+                <p id="material-conductor"><strong>Material del conductor:</strong></p>
+                <p>La mayoría de las instalaciones de baja tensión utilizan conductores de cobre, debido a su excelente conductividad eléctrica y resistencia mecánica. Sin embargo, la norma también contempla el uso de conductores de aluminio bajo condiciones específicas. 
+                  En instalaciones típicas de baja tensión <strong>(residenciales o comerciales pequeñas), no se recomienda ni se permite el uso de aluminio.</strong>
+                </p>
+                <ul>
+                  <li><strong>Cobre:</strong> Material preferido por su alta conductividad (ρ = 0,0175 Ω·mm²/m), flexibilidad y durabilidad.</li>
+                  <li><strong>Aluminio:</strong> Permitido solo en ciertas condiciones segun los ítems <strong>6.2.3.8.1 y 6.2.3.8.2</strong> de la norma:
+                    <ul>
+                      <li>En instalaciones industriales: sección mínima 16 mm², alimentación desde subestación o fuente propia, con personal calificado (BA5).</li>
+                      <li>En instalaciones comerciales: sección mínima de 50 mm², locales BD1, con personal BA5.</li>
+                    </ul>
+                  </li>
+                </ul>
+      
+                <p><strong>Tipo de conductor:</strong></p>
+                <ul>
+                  <li><strong>Unipolar:</strong> Cada conductor aislado individualmente. Se usa normalmente para sistemas trifásicos o monofásicos en canaletas, ductos o bandejas.</li>
+                  <li><strong>Multipolar:</strong> Conjunto de varios conductores dentro de una misma envoltura. Ideal para facilidad de tendido y protección mecánica integrada.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Identificacion por color de conductores -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="IdcolorCond">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIdcolorCond" aria-expanded="false" aria-controls="collapseIdcolorCond">
+                2. Identificación por color de conductores
+              </button>
+            </h2>
+            <div id="collapseIdcolorCond" class="accordion-collapse collapse" aria-labelledby="IdcolorCond" data-bs-parent="#infoAccordion">
+              <div class="accordion-body px-1 p-lg-3">
+                <p>
+                  La identificación de los conductores mediante colores es obligatoria según la Norma INTN NP 2 028 96, <strong>ítem 6.1.5.3</strong>.
+                </p>
+                
+                <p class="fw-bold">Identificación de conductores:</p>
+                
+                <ul>
+                  <li><strong>Conductor Neutro (N):</strong> Debe ser identificado utilizando el color <strong>celeste</strong>. Este color debe aplicarse en toda la longitud del conductor, ya sea en el aislamiento de conductores unipolares o en la cubierta de cables multipolares. 
+                    <br>Importante: si un circuito posee conductor neutro, <strong>no se puede utilizar el color celeste para otro propósito</strong> dentro del mismo circuito. 
+                    En ausencia de neutro en el circuito, se permite usar celeste para otros fines, siempre que no genere riesgo de confusión.
+                  </li>
+                
+                  <li class="mt-2"><strong>Conductor de Protección (PE):</strong> Se debe utilizar exclusivamente la <strong>doble coloración verde-amarillo</strong>. No se admite el uso de verde solo o amarillo solo para otros conductores, para evitar confusión con los conductores de protección.</li>
+                
+                  <li class="mt-2"><strong>Conductor combinado PEN (Protección + Neutro):</strong> Cuando el mismo conductor cprotecciónumple la función de  y neutro, debe ser identificado mediante el color <strong>celeste</strong> con <strong>anillos verde-amarillo</strong> en los puntos visibles o accesibles, como bornes o empalmes.</li>
+                
+                  <li class="mt-2"><strong>Conductores de Fase:</strong> Pueden ser identificados mediante cualquier color, <strong>expecto los colores</strong> celeste, verde y amarillo. Estos colores están reservados exclusivamente para neutro y protección, respectivamente.</li>
+                </ul>
+                
+                <p class="fw-bold mt-2">Práctica comúnmente recomendada para colores de fases:</p>
+                
+                <ul>
+                  <li><strong>R:</strong> Marrón</li>
+                  <li><strong>S:</strong> Negro</li>
+                  <li><strong>T:</strong> Gris</li>
+                  <li><strong>Neutro (N):</strong> Celeste</li>
+                  <li><strong>Protección (PE):</strong> Verde-amarillo</li>
+                </ul>
+                
+                <p class="mt-1">
+                  Aunque la norma no obliga a usar estos colores para las fases, seguir estas recomendaciones facilita la identificación de los conductores en mantenimientos, ampliaciones y auditorías eléctricas, alineándose a prácticas reconocidas internacionalmente (IEC 60446).
+                </p>
+                
+              </div>
+            </div>
+          </div>
+      
+          <!-- Secciones minimas -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="seccionmin">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseccionmin" aria-expanded="false" aria-controls="collapseseccionmin">
+                3. Secciones mínimas
+              </button>
+            </h2>
+            <div id="collapseseccionmin" class="accordion-collapse collapse" aria-labelledby="seccionmin" data-bs-parent="#infoAccordion">
+              <div class="accordion-body px-1 p-lg-3">
+
+                <h4 class="mb-2">Conductores de fase</h4>                             
+                <p> Los conductores de fase deben dimensionarse considerando el ítem 6.2.6.1 de la norma INTN NP 2 028 96: </p>
+                <ul>
+                  <li>la capacidad de conducción de  corriente de los conductores debe ser igual o superior 
+                    a la <strong>corriente de proyecto del circuito</strong>, incluyendo los componentes armónicos, una vez 
+                    utilizados los factores de corrección aplicables.</li>
+                  <li>Protección contra sobrecarga y cortocircuito.</li>
+                  <li>Protección contra choques eléctricos (desconexión automática).</li>
+                  <li>Caída de tensión máxima permitida.</li>
+                  <li>Cumplir la sección mínima exigida por razones mecánicas.</li>
+                </ul>
+                
+              
+                <p class="fw-bold">Secciones mínimas establecidas (Tabla 47) de la norma INTN NP 2 028 96:</p>
+              
+                <ul>
+                  <li><strong>Iluminación:</strong> 1,5 mm² (cobre) / 16 mm² (aluminio)</li>
+                  <li><strong>Tomacorrientes y fuerza:</strong> 2,5 mm² (cobre) / 16 mm² (aluminio)</li>
+                  <li><strong>Señalización y control:</strong> 0,5 mm² (cobre)</li>
+                  <li><strong>Conductores desnudos para fuerza:</strong> 10 mm² (cobre) / 16 mm² (aluminio)</li>
+                  <li><strong>Conductores desnudos para señalización/control:</strong> 4 mm² (cobre)</li>
+                  <li><strong>Líneas flexibles para equipos:</strong> Según norma del equipo o mínimo 0,75 mm² (cobre) en uso general</li>
+                </ul>
+              
+                <p class="fw-bold mt-4">Consideraciones:</p>
+                <ul>
+                  <li>Los circuitos de tomacorrientes se consideran dentro de "circuitos de fuerza".</li>
+                  <li>En cables de control de equipos electrónicos, puede aceptarse 0,1 mm² si son flexibles y con más de siete conductores.</li>
+                  <li>El conductor debe cumplir simultáneamente los criterios eléctricos y los valores mínimos mecánicos establecidos.</li>
+                </ul>
+              
+                <hr class="my-4">
+              
+                <h4 class="mb-3">Conductor neutro</h4>
+              
+                <p>
+                  Según la Norma INTN NP 2 028 96, ítem 6.2.6.2, el conductor neutro debe dimensionarse siguiendo criterios similares al conductor de fase, pero puede admitirse una sección reducida bajo condiciones específicas.
+                </p>
+              
+                <p class="fw-bold">El conductor neutro debe tener la misma sección que los conductores de fase si:</p>
+              
+                <ul>
+                  <li>El circuito es monofásico.</li>
+                  <li>Para circuitos trifasicos si la corriente en el neutro es comparable a la de fase a causa de la presencia de armonicos
+                     o si no se puede determinar con certeza, el neutro debe tener la misma sección que la fase.</li>
+                </ul>
+
+                <p class="fw-bold">Se permite sección reducida solo si se cumplen estas condiciones:</p>
+                <ul>
+                  <li>En un circuito trifásico con neutro y cuyos conductores de fase tengan una sección superior a 25 mm².</li>
+                  <li>El sistema es equilibrado en servicio normal.</li>
+                  <li>La corriente de las fases no contenga una tasa de tercer armónico y múltiplos superior a 15 %.</li>
+                  <li>Existe protección adecuada contra sobrecarga en el neutro.</li>
+                </ul>
+                <div>
+                  <table class="table table-bordered table-striped text-center align-middle">
+                    <thead class="table-light">
+                      <tr>
+                        <th>Sección de los conductores de fase (mm²)</th>
+                        <th>Sección reducida del conductor neutro (mm²)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>S ≤ 25</td>
+                        <td>S</td>
+                      </tr>
+                      <tr>
+                        <td>35</td>
+                        <td>25</td>
+                      </tr>
+                      <tr>
+                        <td>50</td>
+                        <td>25</td>
+                      </tr>
+                      <tr>
+                        <td>70</td>
+                        <td>35</td>
+                      </tr>
+                      <tr>
+                        <td>95</td>
+                        <td>50</td>
+                      </tr>
+                      <tr>
+                        <td>120</td>
+                        <td>70</td>
+                      </tr>
+                      <tr>
+                        <td>150</td>
+                        <td>70</td>
+                      </tr>
+                      <tr>
+                        <td>185</td>
+                        <td>95</td>
+                      </tr>
+                      <tr>
+                        <td>240</td>
+                        <td>120</td>
+                      </tr>
+                      <tr>
+                        <td>300</td>
+                        <td>150</td>
+                      </tr>
+                      <tr>
+                        <td>400</td>
+                        <td>185</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p class="fw-bold mt-4">Consideraciones:</p>
+                <ul>
+                  <li>En los sistemas con armónicos significativos (como iluminación LED, computadoras u otros equipo de tecnologia de naturaleza electrónica) donde la tasa del tercer armonico
+                    y sus multiplos fueran superior al 15% e inferior al 33%, el neutro debe ser dimensionado igual a las fases.</li>
+                  <li>En presencia de armónicos significativos, también puede ser necesario aplicar un factor de corrección de 0,86.</li>
+                </ul>
+                
+              </div>
+            </div>
+          </div>
+      
+          <!-- Definicion de conductores cargados -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFactores">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFactores" aria-expanded="false" aria-controls="collapseFactores">
+                4. Definición de conductores cargados segun la norma INTN NP 2 028 96
+              </button>
+            </h2>
+            <div id="collapseFactores" class="accordion-collapse collapse" aria-labelledby="headingFactores" data-bs-parent="#infoAccordion">
+              <div class="accordion-body px-1 p-lg-3">                              
+                  <p id="nro_conductores">
+                    El ítem <strong>6.2.5.6</strong> de la Norma INTN NP 2 028 96, el número de conductores cargados que debe considerarse para el cálculo de capacidad de conducción de corriente depende de la configuración del circuito y de la corriente que circula en el neutro.
+                  </p>
+                
+                  <p class="fw-bold">Principios generales:</p>
+                  <ul>
+                    <li>Se debe utilizar el número de conductores indicado en la <strong>Tabla 46</strong> de la norma.</li>
+                    <li>En circuitos trifásicos con neutro, si el neutro transporta corriente significativa (especialmente armónicos de tercer orden o múltiplos mayores al 15%), el neutro debe contarse como conductor cargado.</li>
+                    <li>En tal caso, el circuito pasa de considerarse como 3 conductores cargados a <strong>4 conductores cargados</strong>.</li>
+                  </ul>
+                
+                  <p class="fw-bold mt-4">Configuración de circuitos y número de conductores cargados (Tabla 46):</p>
+                
+                  <div>
+                    <table id="conductoresCargados" class="table table-bordered table-striped text-center align-middle">
+                      <thead class="table-light">
+                        <tr>
+                          <th>Tipo de circuito</th>
+                          <th>Conductores cargados</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Monofásico con dos conductores</td>
+                          <td>2</td>
+                        </tr>
+                        <tr>
+                          <td>Monofásico con tres conductores</td>
+                          <td>2</td>
+                        </tr>
+                        <tr>
+                          <td>Dos fases sin neutro</td>
+                          <td>2</td>
+                        </tr>
+                        <tr>
+                          <td>Dos fases con neutro</td>
+                          <td>3</td>
+                        </tr>
+                        <tr>
+                          <td>Trifásico sin neutro</td>
+                          <td>3</td>
+                        </tr>
+                        <tr>
+                          <td>Trifásico con neutro</td>
+                          <td>3 o 4<br>(depende de corriente en el neutro)</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                
+                  <p class="fw-bold mt-4">Consideraciones importantes:</p>
+                  <ul>
+                    <li>Si el neutro está significativamente cargado (por armónicos de tercer orden o múltiplos mayores al 15% e inferiores a 33%), debe aplicarse un <strong>factor de corrección de 0,86</strong> y como 
+                    no existen tablas específicas para 4 conductores cargados en las Tablas 36-39 de la norma, se aplica dicho factor correctivo <strong>a las capacidades de conduccion de 3 conductores cargados</strong>.</li>
+                    <li class="fw-semibold">Esta corrección es independiente del tipo de método de instalación utilizado y se aplica (métodos A1 a G).</li>
+                  </ul>
+                                
+              </div>
+            </div>
+          </div>
+      
+          <!-- Factores de correccion -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingCaida">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCaida" aria-expanded="false" aria-controls="collapseCaida">
+                5. Factores de corrección
+              </button>
+            </h2>
+            <div id="collapseCaida" class="accordion-collapse collapse" aria-labelledby="headingCaida" data-bs-parent="#infoAccordion">
+              <div class="accordion-body">
+                  <p>
+                    Los factores de corrección son coeficientes que ajustan la capacidad de conducción de corriente de los conductores eléctricos cuando las condiciones de instalación reales no coinciden con las condiciones referencia ideales.
+                    La aplicación de estos factores garantiza la seguridad térmica de los cables.
+                  </p>                
+                
+                  <h5 id="fact_temperatura">1. Factor de corrección por temperatura</h5>
+                  <p>
+                    La capacidad de conducción está calculada para 30 °C en el aire y 20 °C en el suelo. Si la temperatura ambiente es distinta, se aplica un factor correctivo segun la tabla 40 de la 
+                    norma como lo especifica el item 6.2.5.3.
+                  </p>
+                  <ul>
+                    <li>El factor de corrección depende del tipo de aislación (PVC, EPR ó XLPE).</li>
+                    <li>La capacidad térmica de los conductores disminuye si la temperatura ambiente es mayor a la temperatura de referencia ideal (factor < 1).</li>
+                    <li>Temperaturas inferiores pueden mejorar la capacidad (factor > 1).</li>
+                    <li>Aplicable tanto para cables en aire como enterrados.</li>
+                  </ul>
+                  <p class="text-start fst-italic">
+                    Nota: Los factores de corrección por temperatura ambiente presentados no consideran el aumento de temperatura debido a la radiación solar directa o a otras fuentes de radiación infrarroja. 
+                    En instalaciones donde los conductores estén expuestos a tales condiciones, la capacidad de conducción de corriente debe ser evaluada según métodos específicos de la Norma ABNT NBR 11301, no siendo aplicables directamente los factores aquí indicados.
+                  </p>
+                  
+                
+                  <hr>
+                
+                  <h5 id="fact_agrupamiento">2. Factor de corrección por agrupamiento de cables</h5>
+
+
+                  <p>
+                    Según el ítem <strong>6.2.5.5</strong> de la Norma INTN NP 2 028 96, el agrupamiento de conductores ocurre cuando varios cables o circuitos se instalan próximos entre sí, afectando su capacidad de disipar calor.
+                    Esto provoca una reducción en la capacidad de conducción de corriente en el conductor, siendo obligatorio aplicar factores de corrección.
+                  </p>
+                  
+                  <p class="fw-bold">Reglas principales:</p>
+                  <ul>
+                    <li>Los valores base de capacidad de conducción son válidos solo si el número de conductores agrupados no supera al agrupamiento estandar:</li>
+                      <ul>
+                        <li>Monofásico: 2 conductores cargados</li>
+                        <li>Trifásico sin neutro: 3 conductores cargados</li>
+                        <li>Trifásico con neutro: 3 o 4 conductores cargados</li>
+                      </ul>
+                    <li>Si hay mayor cantidad de conductores o circuitos, se deben aplicar factores de corrección de las Tablas 42, 43, 44 o 45.</li>
+                    <li>Los factores de agrupamiento fueron calculados suponiendo cargas permanentes al 100% de la capacidad del conductor.</li>
+                    <li>Si los circuitos tienen diferentes temperaturas máximas de servicio, se debe considerar la más baja.</li>                    
+                    <li>Conductores que transporten una corriente ≤ 30% de su capacidad pueden ser ignorados en el conteo para agrupamiento.</li>
+                  </ul>
+
+                  <p class="fw-semibold">Los factores de corrección por agrupamiento (según las Tablas 42 a 45) se aplican únicamente cuando los conductores sean semejantes:</p>
+
+                  <ul>
+                    <li><strong>Misma temperatura máxima admisible</strong> en servicio continuo (por ejemplo, todos con aislamiento PVC o XLPE).</li>
+                    <li><strong>Secciones similares</strong>, es decir, dentro de un intervalo de tres secciones normalizadas sucesivas.</li>
+                  </ul>
+
+                  <p>Si los conductores agrupados <strong>no son semejantes</strong>, la norma indica dos alternativas:</p>
+
+                  <ol type="a">
+                    <li>
+                      Realizar un cálculo detallado <strong>caso por caso</strong>, utilizando normas específicas como la <em>ABNT NBR 11301</em>.
+                    </li>
+                    <li>
+                      Aplicar un <strong>factor de corrección conservador</strong>:
+                      <br>
+                      <span class="d-block mt-2"><strong>F = 1 / √n</strong></span>
+                      <small>donde <em>n</em> es el número de circuitos o cables multipolares agrupados.</small>
+                    </li>
+                  </ol>
+                                   
+                  <p class="fw-bold mt-4">Tablas de referencia para agrupamiento segun la norma INTN NP 2 028 96:</p>
+                  
+                  <div class="table-responsive">
+                    <table class="table table-bordered table-striped text-center align-middle">
+                      <thead class="table-light">
+                        <tr>
+                          <th>Tabla</th>
+                          <th>Método de agrupamiento</th>
+                          <th>Tipos de instalación afectados</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Tabla 42</td>
+                          <td>Camada única de cables (en aire, en ducto, sobre bandeja, etc.)</td>
+                          <td>Métodos A a F</td>
+                        </tr>
+                        <tr>
+                          <td>Tabla 43</td>
+                          <td>Camada multiple</td>
+                          <td>Métodos C, E y F</td>
+                        </tr>
+                        <tr>
+                          <td>Tabla 44</td>
+                          <td>Cables directamente enterrados</td>
+                          <td>Tipo D</td>
+                        </tr>
+                        <tr>
+                          <td>Tabla 45</td>
+                          <td>Cables en electroductos enterrados</td>
+                          <td>Tipo D</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+
+                  <p class="fw-bold mt-4">Aplicación de factores de agrupamiento a conductores semejantes</p>
+
+
+
+
+
+                  
+                  <p class="fw-bold mt-4">Consideraciones adicionales:</p>
+                  <ul>
+                    <li>El agrupamiento afecta directamente la disipación de calor de los conductores.</li>
+                    <li>Ignorar el efecto del agrupamiento puede causar sobrecalentamientos peligrosos.</li>
+                    <li>La aplicación correcta de los factores de agrupamiento es obligatoria para cumplir con la Norma INTN.</li>
+                  </ul>
+                  
+
+                  <hr>
+                
+                  <h5>(Caso especial) Factor de corrección por neutro cargado, presencia de armónicos</h5>
+                  <p>
+                    En circuitos trifásicos con neutro donde hay presencia significativa de armónicos (por ejemplo, iluminación LED o cargas electrónicas), se debe considerar el neutro como conductor cargado.
+                  </p>
+                  <ul>
+                    <li><strong>Condición:</strong> armónicos de tercer orden o múltiplos mayores al 15% e inferiores al 33%.</li>
+                    <li>Se aplica un factor de corrección de 0,86 sobre la capacidad de tres conductores cargados.</li>
+                    <li>No existen tablas específicas para 4 conductores cargados; se usa el método del factor correctivo.</li>
+                    
+                  </ul>
+                
+                  <hr>
+                
+                  <h5>Reglas generales adicionales</h5>
+                  <ul>
+                    <li>Si aplican varios factores (por ejemplo, temperatura + agrupamiento), se deben <strong>multiplicar entre sí</strong>.</li>
+                    <li>Siempre debe adoptarse el criterio más conservador si hay dudas.</li>
+                  </ul>
+                
+
+                
+              
+              </div>
+            </div>
+          </div>
+      
+          <!-- Criterio caida de tension -->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="caida_tension">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsecaida_tension" aria-expanded="false" aria-controls="collapsecaida_tension">
+                6. Criterio de caída de tensión
+              </button>
+            </h2>
+            <div id="collapsecaida_tension" class="accordion-collapse collapse" aria-labelledby="caida_tension" data-bs-parent="#infoAccordion">
+              <div class="accordion-body">
+
+                <p id="fact_caidatension">
+                  La caída de tensión es la disminución del voltaje entre el origen y el punto de utilización de un circuito eléctrico, causada por la resistencia y reactancia del conductor. 
+                  La Norma INTN NP 2 028 96 en el ítem 6.2.7 establece límites máximos de caída de tensión para garantizar el correcto funcionamiento y la seguridad de las instalaciones.
+                </p>
+                <p class="fw-bold">Importante:</p>
+                <p>
+                  Según el ítem 6.2.7.4 para el cálculo de caída de tensión en un circuito debe ser utilizada la corriente de 
+                  proyecto del circuito este ya debe incluir componentes armónicos.
+                </p>
+                
+                <p class="fw-bold">Límites máximos permitidos (Ítem 6.2.7.1):</p>
+                
+                <div class="table-responsive">
+                  <table class="table table-bordered table-striped text-start align-middle">
+                    <thead class="table-light">
+                      <tr>
+                        <th>Origen del circuito</th>
+                        <th>Máxima caída de tensión</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Desde transformador propio (MT/BT)</td>
+                        <td>7%</td>
+                      </tr>
+                      <tr>
+                        <td>Desde transformador de la empresa distribuidora (MT/BT)</td>
+                        <td>7%</td>
+                      </tr>
+                      <tr>
+                        <td>Desde el puesto de entrega en baja tensión</td>
+                        <td>5%</td>
+                      </tr>
+                      <tr>
+                        <td>Desde un grupo generador propio</td>
+                        <td>7%</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                
+                <p class="fw-bold mt-4">Circuitos terminales:</p>
+                <ul>
+                  <li>En los circuitos terminales (como tomacorrientes o iluminación final), la caída de tensión <strong>no debe exceder el 4 %</strong> de la tensión nominal (Ítem 6.2.7.2).</li>
+                </ul>
+                
+                <p class="fw-bold mt-4">Arranque de motores:</p>
+                <ul>
+                  <li>Durante el arranque de motores eléctricos se permite una caída de tensión superior, siempre respetando las normas del equipo o recomendaciones de fabricantes.</li>
+                  <li>En la práctica profesional, se acepta una caída de hasta <strong>10 %</strong> en arranques, aunque esto debe ser evaluado específicamente.</li>
+                </ul>
+                
+                <hr class="my-4">
+                
+                <h4 class="mb-3">Ajuste de criterio por longitud de línea (>100 metros)</h4>
+                
+                <p>
+                  Cuando la longitud de una línea principal supera los 100 metros, la norma permite un ajuste incremental:
+                </p>
+                
+                <ul>
+                  <li>Se puede aumentar el límite de caída de tensión en <strong>0,005% por cada metro adicional</strong> que exceda los 100 metros.</li>
+                  <li>El incremento máximo permitido es <strong>0,5%</strong>.</li>
+                </ul>
+                
+                <p class="fw-bold">Ejemplo práctico:</p>
+                <ul>
+                  <li>Una línea de 150 metros excede en 50 metros.</li>
+                  <li>50 metros x 0,005% = 0,25% adicional permitido.</li>
+                  <li>Si el límite original era 5%, ahora puede admitirse 5,25% de caída.</li>
+                </ul>
+                
+                <p>
+                  Este ajuste evita la necesidad de sobredimensionar excesivamente los conductores en trayectos largos, manteniendo la eficiencia y viabilidad económica de la instalación.
+                </p>
+                
+                <hr class="my-4">
+                
+                <h4 class="mb-3">Uso de reactancia en el cálculo de caída de tensión</h4>
+                
+                <p>
+                  La caída de tensión depende de la resistencia (R) y la reactancia (X) del conductor.
+                </p>
+                
+                <p class="fw-bold">¿Cuándo considerar solo la resistencia?</p>
+                <ul>
+                  <li>En circuitos normales de baja tensión (iluminación, tomacorrientes), la resistencia domina el fenómeno de caída de tensión.</li>
+                  <li>La reactancia es muy pequeña comparada con la resistencia, especialmente en conductores de cobre y trayectos cortos o medianos.</li>
+                  <li>Por ello, en la mayoría de los cálculos generales, se desprecia la reactancia para simplificar.</li>
+                </ul>
+                
+                <p class="fw-bold">¿Cuándo considerar también la reactancia?</p>
+                <ul>
+                  <li>En circuitos de arranque de motores, la corriente es muy alta y el factor de potencia inicial es muy bajo (cos ϕ ≈ 0,35).</li>
+                  <li>En esas condiciones, el efecto inductivo (reactancia) se vuelve importante y debe ser incluido en el cálculo de caída de tensión.</li>
+                  <li>El cálculo correcto para motores debe utilizar la fórmula completa: <br>
+                    <strong>ΔU = (R x cosϕ + X x senϕ) x I x L x √3</strong> (trifásico)</li>
+                </ul>
+                
+                <p>
+                  Considerar la reactancia en arranque de motores ayuda a prever caídas de tensión más realistas y evitar fallas de arranque o daños en el motor.
+                </p>
+                
+                
+              
+              
+              </div>
+            </div>
+          </div>
+
+
+          
+      
+        </div>
+      </div>
+      
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>     
+    </body>
+</html>
