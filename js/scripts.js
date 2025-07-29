@@ -86,19 +86,19 @@ btnGroup2.forEach(btn2 => {
     const disposicionF = document.getElementById("dispConductoresF").value;
     const campoConductores = document.getElementById("nroConductores");
   
-    // Buscar la opción con valor "2"
+    
     const opcion2 = campoConductores.querySelector('option[value="2"]');
   
-    // Por defecto, la opción "2" está habilitada
+    
     opcion2.disabled = false;
   
-    // Si es tipo F y disposición en trébol → deshabilitar "2"
+    
     if (tipoInstalacion === "F" && disposicionF === "Trebol") {
       opcion2.disabled = true;
       if (campoConductores.value === "2") campoConductores.value = "3";
     }
   
-    // Si es tipo G → deshabilitar "2"
+    
     if (tipoInstalacion === "G") {
       opcion2.disabled = true;
       if (campoConductores.value === "2") campoConductores.value = "3";
@@ -110,16 +110,16 @@ btnGroup2.forEach(btn2 => {
     const tipoAislacion = document.getElementById("tipoAislacion").value;
     const selectTemperatura = document.getElementById("temperatura");
   
-    // Lista de temperaturas que deben estar deshabilitadas para PVC
+    
     const temperaturasProhibidasPVC = ["65", "70", "75", "80"];
   
-    // Recorremos todas las opciones del select
+    
     Array.from(selectTemperatura.options).forEach(option => {
       if (tipoAislacion === "PVC") {
-        // Deshabilitar si es una de las prohibidas
+        
         option.disabled = temperaturasProhibidasPVC.includes(option.value);
       } else {
-        // Habilitar todas para EPR o XLPE
+        
         option.disabled = false;
       }
     });
@@ -127,20 +127,28 @@ btnGroup2.forEach(btn2 => {
       selectTemperatura.value = "";
     }
   }
-// Función que valida las condiciones del agrupamiento
+
 function validarAgrupamiento() {
   const tipoInstalacion = document.getElementById("tipoInstalacion").value;
   const metodoAgrupElem = document.getElementById("metodoAgrupamiento");
   const metodoAgrup = metodoAgrupElem.value;
 
 
-  // Obtiene el valor del select "forma_agrup" si existe
+  
   const formaAgrupElem = document.getElementById("forma_agrup");
   const formaAgrup = formaAgrupElem ? formaAgrupElem.value : "";
   const formaAgrupTexto = formaAgrupElem ? formaAgrupElem.options[formaAgrupElem.selectedIndex].text : "";
   const metodoAgrupTexto = document.getElementById("metodoAgrupamiento").options[document.getElementById("metodoAgrupamiento").selectedIndex].text;
 
-  // 1. Validación para ciertas formas de agrupamiento que requieren instalación tipo "C"
+  if (formaAgrup === "conjunto_al_aire_embutido_ducto"){
+    if (tipoInstalacion === "D") {
+      mostrarAlerta(
+        `Para el tipo de instalación <strong>"D"</strong>, el <strong>"Método de agrupamiento"</strong>  debe de ser <strong>"Directamente enterrado"</strong> ó <strong>"Electroductos enterrados"</strong>`
+      );
+      return false;
+    }
+  }
+
   if (formaAgrup === "camada_unica_pared_piso_bandeja_cerrada" || formaAgrup === "camada_unica_en_techo"){
     if (tipoInstalacion !== "C") {
       mostrarAlerta(
@@ -150,7 +158,7 @@ function validarAgrupamiento() {
     }
   }
 
-  // 2. Validación para formas que requieren tipo de instalación "E" o "F"
+  
   if (formaAgrup === "camada_unica_bandeja_perforada" || formaAgrup === "camada_unica_parrilla_soporte"){
 
     if (tipoInstalacion !== "E" && tipoInstalacion !== "F") {
@@ -161,7 +169,7 @@ function validarAgrupamiento() {
     }
   }
 
-  // 3. Si el método es "multiple", se requiere tipo "C", "E" o "F"
+  
   if (metodoAgrup === "multiple") {
     if ( tipoInstalacion !== "C" && tipoInstalacion !== "E" && tipoInstalacion !== "F"){
       mostrarAlerta(
@@ -171,7 +179,7 @@ function validarAgrupamiento() {
     }
   }
 
-  // 4. Si el método es "enterrado" o "electroducto_enterrado", se requiere tipo "D"
+  
   if ( metodoAgrup === "enterrado" || metodoAgrup === "electroducto_enterrado" ){
     if (tipoInstalacion !== "D") {
       mostrarAlerta(
@@ -180,14 +188,14 @@ function validarAgrupamiento() {
       return false;
     }
   }
-  // Si todas las validaciones se cumplen
+  
   return true;
 }
 
   
 
 
-// Escucha cambios en los selects y ejecuta la validación automáticamente
+
 document.getElementById("forma_agrup")?.addEventListener("change", validarAgrupamiento);
 document.getElementById("metodoAgrupamiento").addEventListener("change", validarAgrupamiento);
 document.getElementById("tipoInstalacion").addEventListener("change", validarAgrupamiento);
@@ -196,27 +204,27 @@ function validartipoPotYred() {
   const tipoPot = document.getElementById("seleccionTipoPotencia").value;
   const tipoRed = document.getElementById("nroConductores").value;
 
-  // Si la potencia es monofásica, el tipo de red debe ser "2"
+  
   if (tipoPot === "monofasico" && tipoRed !== "2") {
     mostrarAlerta('Verifica si el campo Tipo de Potencia es igual al campo Tipo de Red');
     return false;
   }
 
-  // Si la potencia es trifásica, el tipo de red debe ser "3" o "4"
+  
   if (tipoPot === "trifasico" && tipoRed !== "3" && tipoRed !== "4") {
     mostrarAlerta('Verifica si el campo Tipo de Potencia es igual al campo Tipo de Red');
     return false;
   }
 
-  // Todo está bien
+  
   return true;
 }
 
 function mostrarAlerta(mensaje, tipo = "warning") {
-  // Eliminar alertas anteriores
+  
   document.querySelectorAll(".alert").forEach(alerta => alerta.remove());
 
-  // Crear la alerta
+  
   const alerta = document.createElement("div");
   alerta.className = `alert alert-${tipo} alert-dismissible fade show position-fixed z-3 top-0 end-0 m-3`;
   alerta.role = "alert";
@@ -275,14 +283,14 @@ function mostrarAlerta(mensaje, tipo = "warning") {
   document.querySelectorAll(".toggle").forEach((sw) => {
     sw.addEventListener("change", manejarVisibilidad);
   });
-// funcion para resetear todos los campos cuando se desactiva la sw seleccion
+
 function resetearCampos() {
   document.querySelectorAll("#portemperatura select, #poragrupamiento select, #porCaidaTension input[type='number']").forEach((elemento) => {
     elemento.value = "";
     elemento.disabled = true;
   });
 }
-// funcion para resetear los campos dentro de un factor específico
+
 function resetearCamposFactor(factor) {
   factor.querySelectorAll("select, input").forEach((elemento) => {
     elemento.value = "";
@@ -290,13 +298,13 @@ function resetearCamposFactor(factor) {
   });
 }
 
-// funcion para habilitar los campos dentro de un factor específico
+
 function habilitarCamposFactor(factor) {
   factor.querySelectorAll("select, input").forEach((elemento) => {
     elemento.disabled = false;
   });
 }
-//logica para habilitar o ocular metodos de agrupacion
+
   const metodoAgrupamiento = document.getElementById("metodoAgrupamiento");
   const agrupamientos = {
     unica: document.querySelectorAll(".camadaUni"),
@@ -306,7 +314,7 @@ function habilitarCamposFactor(factor) {
   };
 
   metodoAgrupamiento.addEventListener("change", function () {
-    // oculta todos los elementos
+    
     Object.values(agrupamientos).forEach(function (grupo) {
       grupo.forEach(function (elemento) {
         elemento.classList.add("d-none");
@@ -316,7 +324,7 @@ function habilitarCamposFactor(factor) {
 
     var seleccion = metodoAgrupamiento.value;
 
-    // muestra los campos
+    
     if (agrupamientos[seleccion]) {
       agrupamientos[seleccion].forEach(function (elemento) {
         elemento.classList.remove("d-none");       
@@ -325,7 +333,7 @@ function habilitarCamposFactor(factor) {
     }
   });
 
-// Función que reinicia los radios de caída de tensión y selecciona el del 5%
+
 function resetearCriterioCaida() {
   const radios = document.querySelectorAll('.criterioCaida');
 
@@ -341,7 +349,7 @@ document.getElementById("switch_caidaTension").addEventListener("change", resete
 
 
 
-//funcion para validar el form
+
 const form = document.getElementById("calculadoraSeccion");
 
 form.addEventListener("submit", function(validacion) {
@@ -350,15 +358,15 @@ form.addEventListener("submit", function(validacion) {
     if (!form.checkValidity()) { 
         form.classList.add("was-validated"); 
 
-        // Buscar los campos que faltan completar
+        
         let camposFaltantes = [];
         document.querySelectorAll("#calculadoraSeccion input:invalid, #calculadoraSeccion select:invalid").forEach(campo => {
             let label = document.querySelector(`label[for=${campo.id}]`);
-            let nombreCampo = label ? label.textContent : campo.id; // Si tiene label, usa el texto; si no, el id
+            let nombreCampo = label ? label.textContent : campo.id; 
             camposFaltantes.push(nombreCampo);
         });
 
-        // Mostrar alerta con los campos que faltan
+        
         if (camposFaltantes.length > 0) {
             alert("Complete los siguientes campos requeridos:\n\n" + camposFaltantes.join("\n"));
         }
@@ -371,9 +379,9 @@ function calcular() {
     return;
   }
   if (!validartipoPotYred()) {
-    return; // No continuar si la validación falla
+    return; 
   }
-  // 1. Verificar si se ingresa corriente o potencia
+  
   const tipoEntrada = document.getElementById("corrienteON").checked ? "corriente" : "potencia";
   let corriente_proyecto = 0;
 
@@ -390,13 +398,13 @@ function calcular() {
     }
 
     if (tipoPotencia === "monofasico") {
-      corriente_proyecto = potencia / (220 * fp); // suponiendo 220 V
+      corriente_proyecto = potencia / (220 * fp); 
     } else if (tipoPotencia === "trifasico") {
-      corriente_proyecto = potencia / (Math.sqrt(3) * 380 * fp); // suponiendo 380 V
+      corriente_proyecto = potencia / (Math.sqrt(3) * 380 * fp); 
     }
   }
 
-  // 2. Capturar datos técnicos del formulario
+  
   const tipo_aislacion = document.getElementById("tipoAislacion").value;
   const tipo_instalacion = document.getElementById("tipoInstalacion").value;
   let nro_conductores = parseInt(document.getElementById("nroConductores").value);
@@ -411,7 +419,7 @@ function calcular() {
     disposicion = document.getElementById("dispConductoresG").value;
   }
 
-  // 3. Guardar en objeto (nombres iguales al JSON)
+  
   const datosEntrada = {
     tipoEntrada,
     corriente_proyecto,
@@ -422,10 +430,10 @@ function calcular() {
   };
   buscarSeccion(datosEntrada);
 }
-// 4. Buscar sección adecuada en capacidades.json
+
 async function buscarSeccion(datosEntrada) {
   try {
-    // 1. Cargar los archivos JSON
+    
     const [capacidades, por_temperatura, agrupamiento] = await Promise.all([
       fetch("./data/capacidades.json").then(res => res.json()),
       fetch("./data/por_temperatura.json").then(res => res.json()),
@@ -440,7 +448,7 @@ async function buscarSeccion(datosEntrada) {
     if (document.getElementById("switch_agrupacion").checked) {
       factorAgrup = obtenerFactorAgrupamiento(datosEntrada, agrupamiento);
     }
-    // 3. Calcular corriente corregida
+    
     let factorNeutro = 1;
     if (parseInt(document.getElementById("nroConductores").value)=== 4) {
       factorNeutro = 0.86;
@@ -476,7 +484,7 @@ async function buscarSeccion(datosEntrada) {
           No se encontró una sección que soporte la corriente ingresada según la tabla de capacidades de la norma INTN.
         </p>`;
       
-      mostrar_resultados("", "", advertencia, true);
+      mostrar_resultados(advertencia, "", "", true);
       return;
     }
 
@@ -490,10 +498,10 @@ async function buscarSeccion(datosEntrada) {
       const criterio = parseInt(document.querySelector('.criterioCaida:checked').id.split("_")[1]);
       let criterio_ajustado = criterio;
       let mensajeAdvertencia ="";
-      //caso que la longitud sea mayor a 100m
+      
       if (L > 100) {
         const metros_excedentes = L - 100;
-        const incremento = metros_excedentes * 0.005; // cada metro agrega 0,005%
+        const incremento = metros_excedentes * 0.005; 
         mensajeAdvertencia = `<div class="alert alert-warning border border-danger-subtle px-3 py-2 text-start">
             <p class="mb-1 fs-6 text-danger fw-semibold">
               <i class="bi bi-exclamation-triangle-fill me-2"></i>
@@ -610,13 +618,13 @@ function obtenerFactorTemperatura(datosEntrada, por_temperatura) {
   const tipoAmbiente = document.getElementById("tipoAmbiente").value;
   const temperatura = document.getElementById("temperatura").value;
 
-  // Filtrar todos los registros que coincidan por tipo de aislación y ambiente
+  
   const registrosFiltrados = por_temperatura.filter(item =>
     item.tipo_aislacion === tipoAislacion &&
     item.tipo_ambiente === tipoAmbiente
   );
 
-  // Buscar coincidencia exacta con la temperatura seleccionada
+  
   const registro = registrosFiltrados.find(item => item.temperatura == temperatura);
   
   if (!registro) {
@@ -624,7 +632,7 @@ function obtenerFactorTemperatura(datosEntrada, por_temperatura) {
     return 1;
   }
 
-  // Devolver el factor como número (reemplazando coma por punto)
+  
   const factor = parseFloat(registro.factor_correccion_temp.toString().replace(",", "."));
 
   return factor;
@@ -691,7 +699,7 @@ function obtenerFactorAgrupamiento(datosEntrada, agrupamiento) {
 }
 
 function calcularSeccionCaida(I_proy, L, tipoRed, criterio_ajustado, capacidadesValidas) {
-  const p = 0.0175; // resistividad del cobre (ohm·mm²/m)
+  const p = 0.0175; 
   let V_nominal, mult, deltaVmaximo, seccionMinima;
   
   if (tipoRed === "2") {
@@ -714,11 +722,11 @@ function calcularSeccionCaida(I_proy, L, tipoRed, criterio_ajustado, capacidades
   }).sort((a, b) => a.seccion - b.seccion);
 
   for (let i = 0; i < candidatos.length; i++) {
-    const elementos = candidatos[i]; // obtenemos el elemento actual manualmente
+    const elementos = candidatos[i]; 
     let deltaVcalculado;
     if(criterio_ajustado >= 10){
       const R = p / elementos.seccion;
-      const X = 0.08 / 1000; // Reactancia típica en ohm/m
+      const X = 0.08 / 1000; 
       deltaVcalculado = (mult * L * I_proy * (R * 0.3 + X * 0.954)) / elementos.seccion;
       
     }else{
@@ -893,7 +901,7 @@ document.getElementById("btnLimpiar").addEventListener("click", function () {
 function limpiarResultadoCond() {
   const card = document.getElementById("resultadosCond");
   if (card) {
-    card.remove(); // elimina el card de resultados si existe
+    card.remove(); 
   }
   
 }
