@@ -127,6 +127,25 @@ btnGroup2.forEach(btn2 => {
       selectTemperatura.value = "";
     }
   }
+document.getElementById("tipoInstalacion").addEventListener("change", controlTemperatura);
+  function controlTemperatura(){
+     const tipoInstalacion = document.getElementById("tipoInstalacion").value;
+     const select = document.getElementById("tipoAmbiente");
+     const opcionSuelo = select.querySelector('option[value="suelo"]');
+     const opcionAmbiente = select.querySelector('option[value="ambiente"]');
+
+      if (tipoInstalacion === "D") {
+        select.value = "";
+        opcionSuelo.disabled = false;
+        opcionAmbiente.disabled = true;
+      } else {
+        select.value= "";
+        opcionSuelo.disabled = true;
+        opcionAmbiente.disabled = false;
+      }
+
+  };
+
 
 function validarAgrupamiento() {
   const tipoInstalacion = document.getElementById("tipoInstalacion").value;
@@ -922,6 +941,7 @@ function ocultarResultadosAleatorio(){
   })
 }
 ocultarResultadosAleatorio();
+
 
 
 
