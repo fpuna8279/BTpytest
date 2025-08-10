@@ -127,7 +127,7 @@ btnGroup2.forEach(btn2 => {
       selectTemperatura.value = "";
     }
   }
-document.getElementById("tipoInstalacion").addEventListener("change", controlTemperatura);
+  document.getElementById("tipoInstalacion").addEventListener("change", controlTemperatura);
   function controlTemperatura(){
      const tipoInstalacion = document.getElementById("tipoInstalacion").value;
      const select = document.getElementById("tipoAmbiente");
@@ -474,8 +474,8 @@ async function buscarSeccion(datosEntrada) {
     }
     
     const corrienteCorregida = datosEntrada.corriente_proyecto / (factorTemp * factorAgrup * factorNeutro);
-    
-
+    const corrientesinfactor = datosEntrada.corriente_proyecto;
+   
     let esFG;
     if (datosEntrada.tipo_instalacion === "F" || datosEntrada.tipo_instalacion === "G") {
       esFG = true;
@@ -495,7 +495,12 @@ async function buscarSeccion(datosEntrada) {
       const corriente_maxima = parseFloat(item.corriente_maxima.toString().replace(",", "."));
       return corriente_maxima > corrienteCorregida;
     });
-
+    const seccionProyecto = capacidadesValidas.find(item => {
+      const corriente_maxima = parseFloat(item.corriente_maxima.toString().replace(",", "."));
+      return corriente_maxima > corrientesinfactor;
+    });
+    let seccionOriginal = parseFloat(seccionProyecto.seccion_mm2.toString().replace(",", "."));
+    let capacidadMaxCond = parseFloat(seccionProyecto.corriente_maxima.toString().replace(",", "."));
     if (!itemS1) {
       const advertencia = `
         <p class="fs-6 text-danger fw-semibold text-center">
@@ -571,11 +576,18 @@ async function buscarSeccion(datosEntrada) {
       
       const tipoRed = document.getElementById("nroConductores").value;
       const itemS2 = calcularSeccionCaida(datosEntrada.corriente_proyecto, L, tipoRed, criterio_ajustado, capacidadesValidas);
-
+     
       const S2 = itemS2.seccion; 
-      const S_final = (S2 >= S1) ? S2 : S1;
+      let S_final, S_final_capacidad;
 
-
+      if(S2 >= S1){
+         S_final = S2;
+         S_final_capacidad = itemS2.datos_caida.corriente_maxima;
+      }else{
+         S_final = S1;
+         S_final_capacidad = itemS1.corriente_maxima;
+      }
+      
       const resultadoSeccion = `<p class="mb-1 p-0 fs-5 fw-semibold"><i class="bi bi-check-square-fill text-success fs-5 me-2"></i>
                                 Sección final recomendada: ${S_final.toFixed(1).toString().replace(".", ",")} mm²
                                 </p>`;
@@ -612,11 +624,15 @@ async function buscarSeccion(datosEntrada) {
         corriente_corregida: corrienteCorregida,
         factorTemp,
         factorAgrup,
-        factorNeutro
+        factorNeutro,
+        seccionOriginal,
+        capacidadMaxCond,
+        itemS1
+        
       });
     } else {
       const resultadoSeccion = `<p class="mb-1 p-0 fs-5 fw-semibold"><i class="bi bi-check-square-fill text-success me-2"></i>
-      Sección recomendada: ${itemS1.seccion_mm2} mm² (corriente máxima: ${itemS1.corriente_maxima} A)</p>`;
+      Sección recomendada: ${itemS1.seccion_mm2} mm²</p>`;
       mostrar_resultados(null, resultadoSeccion,"", false, {
         corriente_ingresada: datosEntrada.corriente_proyecto,
         potencia: datosEntrada.tipoEntrada === "potencia" ? document.getElementById("potencia").value : null,
@@ -624,7 +640,10 @@ async function buscarSeccion(datosEntrada) {
         corriente_corregida: corrienteCorregida,
         factorTemp,
         factorAgrup,
-        factorNeutro
+        factorNeutro,
+        seccionOriginal,
+        capacidadMaxCond,
+        itemS1
       });
     }
   } catch (error) {
@@ -789,28 +808,38 @@ function mostrar_resultados(bloqueCaida = "", bloqueResultado = "", mensajeAdver
   let bloqueFactores = ``;
 
   if (extras.corriente_ingresada && !extras.potencia && (bloqueCaida!=="" || bloqueCaida!==null)) {
-    bloqueCorriente += extras.corriente_corregida !== extras.corriente_ingresada ? `<p class="fs-5 fw-medium">Comparacion de corriente</p>`: `<p class="fs-5 fw-medium">Parámetros de entrada:</p>`;
+    bloqueCorriente += extras.corriente_corregida !== extras.corriente_ingresada ? `<p class="fs-5 fw-medium">Comparación de capacidades de conduccion del cable</p>`: `<p class="fs-5 fw-medium">Capacidad de conducción del cable:</p>`;
 
     
     bloqueCorriente += `<p class="fs-6"><i class="bi bi-arrow-right-square-fill text-info me-2"></i>Corriente ingresada: ${extras.corriente_ingresada.toFixed(2).toString().replace(".", ",")} A</p>`;
+    bloqueCorriente += `<p class="fs-6">Capacidad de conducción sin factores: ${extras.capacidadMaxCond.toFixed(2).toString().replace(".", ",")} A → ${extras.seccionOriginal.toFixed(2).toString().replace(".", ",")} mm²</p>`;  
+      
+
   }
 
   if (extras.potencia) {
-    bloqueCorriente += extras.corriente_corregida !== extras.corriente_ingresada ? `<p class="fs-5 fw-medium">Comparacion de corriente</p>`: `<p class="fs-5 fw-medium">Parámetros de entrada:</p>`;
+    bloqueCorriente += extras.corriente_corregida !== extras.corriente_ingresada ? `<p class="fs-5 fw-medium">Comparación de capacidades de conduccion del cable</p>`: `<p class="fs-5 fw-medium">Capacidad de conducción del cable:</p>`;
 
     bloqueCorriente += `<p class="fs-6"><i class="bi bi-plug-fill me-2 text-secondary"></i>Potencia ingresada: ${parseFloat(extras.potencia).toLocaleString("es-PY")} W</p>`;
     bloqueCorriente += `<p class="fs-6"><i class="bi bi-calculator me-2 text-secondary"></i>Corriente calculada: ${extras.corriente_ingresada.toFixed(2).toString().replace(".", ",")} A</p>`;
+    if (extras.fp) {
+      bloqueCorriente += `<p class="fs-6"><i class="bi bi-speedometer me-2 text-secondary"></i>Factor de potencia: ${extras.fp.toString().replace(".", ",")}</p>`;
+    } 
+    bloqueCorriente += `<p class="fs-6">Capacidad de conducción sin factores: ${extras.capacidadMaxCond.toFixed(2).toString().replace(".", ",")} A → ${extras.seccionOriginal.toFixed(2).toString().replace(".", ",")} mm²</p>`;  
+    
   }
 
-  if (extras.fp) {
-    bloqueCorriente += `<p class="fs-6"><i class="bi bi-speedometer me-2 text-secondary"></i>Factor de potencia: ${extras.fp.toString().replace(".", ",")}</p>`;
-  }
-
+  
+  
   if ((extras.corriente_corregida!==extras.corriente_ingresada)) {
-    bloqueCorriente += `<p class="fs-6"><i class="me-2 text-info bi ${extras.corriente_corregida  > extras.corriente_ingresada ? 'bi-arrow-up-square-fill' : 'bi-arrow-down-square-fill'}"></i>Corriente corregida: ${extras.corriente_corregida.toFixed(2).toString().replace(".", ",")} A</p>`;
-    const aumentoPorcentual = ((extras.corriente_corregida - extras.corriente_ingresada) / extras.corriente_ingresada) * 100;
-    bloqueCorriente += `<p class="fs-6">La corriente ${extras.corriente_corregida  > extras.corriente_ingresada ? 'aumento' : 'disminuyo'} un ${aumentoPorcentual.toFixed(2).toString().replace(".", ",")}% por efecto de los factores de corrección</p>`;
-    if(extras.factorTemp != 1 || extras.factorAgrup != 1){
+
+      bloqueCorriente += `<p class="fs-6">Capacidad reducida por factores (${(extras.factorTemp*extras.factorAgrup*extras.factorNeutro).toFixed(2).toString().replace(".", ",")} x ${extras.capacidadMaxCond.toFixed(2).toString().replace(".", ",")}) : ${(extras.capacidadMaxCond*extras.factorTemp*extras.factorAgrup*extras.factorNeutro).toFixed(2).toString().replace(".", ",")} A</p>`;
+      bloqueCorriente += `<hr>`;
+      bloqueCorriente += `<p class="fs-6">Sección necesaria con factores : ${extras.itemS1.seccion_mm2} mm² → ${extras.itemS1.corriente_maxima} A</p>`;
+      bloqueCorriente += `<p class="fs-6">Capacidad reducida por factores (${(extras.factorTemp*extras.factorAgrup*extras.factorNeutro).toFixed(2).toString().replace(".", ",")} x ${extras.itemS1.corriente_maxima}) : ${(parseFloat(extras.itemS1.corriente_maxima)*extras.factorTemp*extras.factorAgrup*extras.factorNeutro).toFixed(2).toString().replace(".", ",")} A</p>`;
+    
+    
+    if(extras.factorTemp != 1 || extras.factorAgrup != 1 || extras.factorNeutro !== 1){
       bloqueFactores += `<p class="fs-5 fw-medium">Factores de correccion:</p>`;
       if(extras.factorTemp != 1){
       bloqueFactores += `<p class="fs-6"><i class="bi bi-thermometer-half me-2"></i>Temperatura: <span class="badge bg-info">${extras.factorTemp.toString().replace(".", ",")}</span></p>`;
@@ -821,12 +850,7 @@ function mostrar_resultados(bloqueCaida = "", bloqueResultado = "", mensajeAdver
       if (extras.factorNeutro && extras.factorNeutro !== 1) {
         bloqueFactores += `<p class="fs-6"><i class="bi bi-exclamation-triangle-fill text-warning me-2"></i>Neutro cargado: <span class="badge bg-info">${extras.factorNeutro.toString().replace(".", ",")}</span></p>`;
       }
-      
-    }else{
-      if (extras.factorNeutro && extras.factorNeutro !== 1) {
-        bloqueFactores += `<p class="fs-5 fw-medium">Factores de correccion:</p>`;
-        bloqueFactores += `<p class="fs-6"><i class="bi bi-exclamation-triangle-fill text-warning me-2"></i>Neutro cargado: <span class="badge bg-info">${extras.factorNeutro.toString().replace(".", ",")}</span></p>`;
-      }
+       bloqueFactores += `<p class="fs-6"><i class="bi bi-gear-wide-connected me-2"></i>Factor total: <span class="badge bg-info">${(extras.factorTemp*extras.factorAgrup*extras.factorNeutro).toFixed(2).toString().replace(".", ",")}</span></p>`;
     }
 
   }
@@ -941,7 +965,6 @@ function ocultarResultadosAleatorio(){
   })
 }
 ocultarResultadosAleatorio();
-
 
 
 
