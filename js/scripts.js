@@ -819,7 +819,7 @@ function mostrar_resultados(bloqueCaida = "", bloqueResultado = "", mensajeAdver
   let bloqueFactores = ``;
 
   if (extras.corriente_ingresada && !extras.potencia && (bloqueCaida!=="" || bloqueCaida!==null)) {
-    bloqueCorriente += extras.corriente_corregida !== extras.corriente_ingresada ? `<p class="fs-5 fw-medium">Comparación de capacidades de conduccion del cable</p>`: `<p class="fs-5 fw-medium">Capacidad de conducción del cable:</p>`;
+    bloqueCorriente += extras.corriente_corregida !== extras.corriente_ingresada ? `<p class="fs-5 fw-medium">Comparación de capacidades de conduccion</p>`: `<p class="fs-5 fw-medium">Capacidad de conducción:</p>`;
 
     
     bloqueCorriente += `<p class="fs-6"><i class="bi bi-arrow-right-square-fill text-info me-2"></i>Corriente ingresada: ${extras.corriente_ingresada.toFixed(2).toString().replace(".", ",")} A</p>`;
@@ -829,7 +829,7 @@ function mostrar_resultados(bloqueCaida = "", bloqueResultado = "", mensajeAdver
   }
 
   if (extras.potencia) {
-    bloqueCorriente += extras.corriente_corregida !== extras.corriente_ingresada ? `<p class="fs-5 fw-medium">Comparación de capacidades de conduccion del cable</p>`: `<p class="fs-5 fw-medium">Capacidad de conducción del cable:</p>`;
+    bloqueCorriente += extras.corriente_corregida !== extras.corriente_ingresada ? `<p class="fs-5 fw-medium">Comparación de capacidades de conduccion</p>`: `<p class="fs-5 fw-medium">Capacidad de conducción:</p>`;
 
     bloqueCorriente += `<p class="fs-6"><i class="bi bi-plug-fill me-2 text-secondary"></i>Potencia ingresada: ${parseFloat(extras.potencia).toLocaleString("es-PY")} W</p>`;
     bloqueCorriente += `<p class="fs-6"><i class="bi bi-calculator me-2 text-secondary"></i>Corriente calculada: ${extras.corriente_ingresada.toFixed(2).toString().replace(".", ",")} A</p>`;
@@ -976,6 +976,7 @@ function ocultarResultadosAleatorio(){
   })
 }
 ocultarResultadosAleatorio();
+
 
 
 
