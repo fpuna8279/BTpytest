@@ -575,7 +575,8 @@ async function buscarSeccion(datosEntrada) {
 
       
       const tipoRed = document.getElementById("nroConductores").value;
-      const itemS2 = calcularSeccionCaida(datosEntrada.corriente_proyecto, L, tipoRed, criterio_ajustado, capacidadesValidas);
+      const fpUsuario = parseFloat(document.getElementById("fpValor").value);
+      const itemS2 = calcularSeccionCaida(datosEntrada.corriente_proyecto, L, tipoRed, criterio_ajustado, capacidadesValidas, fpUsuario);
      
       const S2 = itemS2.seccion; 
       let S_final, S_final_capacidad;
@@ -605,7 +606,7 @@ async function buscarSeccion(datosEntrada) {
         bloqCaida += `<p class="ms-0 fs-6"><i class="bi bi-rulers text-primary me-1 me-md-2"></i>Ajuste aplicado por longitud >100m (+${(criterio_ajustado - criterio).toFixed(3).toString().replace(".", ",")}% permitido)</p>`;
       }
       
-      if (document.getElementById("switch_agrupacion").checked || document.getElementById("switch_temperatura").checked) {
+      if (document.getElementById("switch_agrupacion").checked || document.getElementById("switch_temperatura").checked || document.getElementById("nroConductores").value === "4" ) {
         
         bloqCaida += `<p class="ms-0 fs-6"><i class="bi bi-wrench-adjustable-circle-fill me-1 me-md-2 text-secondary"></i>Sección corregida por factores: ${S1.toFixed(2).toString().replace(".", ",")} mm² (corriente máxima: ${itemS1.corriente_maxima} A)</p>`;
 
@@ -736,9 +737,10 @@ function obtenerFactorAgrupamiento(datosEntrada, agrupamiento) {
   return factor;
 }
 
-function calcularSeccionCaida(I_proy, L, tipoRed, criterio_ajustado, capacidadesValidas) {
-  const p = 0.0175; 
-  let V_nominal, mult, deltaVmaximo, seccionMinima;
+function calcularSeccionCaida(I_proy, L, tipoRed, criterio_ajustado, capacidadesValidas, fpUsuario=null) {
+  const rho = 0.0225;     
+  const lambda = 0.00008; 
+  let V_nominal, mult, deltaVmaximo;
   
   if (tipoRed === "2") {
     V_nominal = 220;
@@ -751,7 +753,20 @@ function calcularSeccionCaida(I_proy, L, tipoRed, criterio_ajustado, capacidades
     deltaVmaximo = 380*(criterio_ajustado/100);
     
   }
-  seccionMinima =(mult * p * L * I_proy) / deltaVmaximo;
+  let cosPhi, senPhi, Iuso;
+  if (criterio_ajustado >= 10) { 
+    cosPhi = 0.35;                  
+    senPhi = Math.sqrt(1 - cosPhi**2);
+    Iuso = I_proy * 6;               
+  } else { 
+    cosPhi = fpUsuario ? fpUsuario : 0.92; 
+    senPhi = Math.sqrt(1 - cosPhi**2);
+    Iuso = I_proy;
+  }
+
+ 
+  const seccionMinima = parseInt((mult * L * Iuso * (rho * cosPhi + lambda * senPhi)) / deltaVmaximo);
+  
   const candidatos = capacidadesValidas.map(item => {
     return {
       seccion: parseFloat(item.seccion_mm2.toString().replace(",", ".")),
@@ -761,17 +776,13 @@ function calcularSeccionCaida(I_proy, L, tipoRed, criterio_ajustado, capacidades
 
   for (let i = 0; i < candidatos.length; i++) {
     const elementos = candidatos[i]; 
-    let deltaVcalculado;
-    if(criterio_ajustado >= 10){
-      const R = p / elementos.seccion;
-      const X = 0.08 / 1000; 
-      deltaVcalculado = (mult * L * I_proy * (R * 0.3 + X * 0.954)) / elementos.seccion;
-      
-    }else{
-      deltaVcalculado = (mult * L * I_proy * p) / elementos.seccion;
 
-    }
-    
+    const R = rho / elementos.seccion;    
+    const X = lambda / elementos.seccion; 
+
+   
+    const deltaVcalculado = mult * L * Iuso * (R * cosPhi + X * senPhi);
+
     const caida_criterio = (deltaVcalculado / V_nominal) * 100;
     
     if (caida_criterio <= criterio_ajustado && parseFloat(elementos.elem.corriente_maxima) > I_proy && elementos.seccion >= seccionMinima ) {
