@@ -499,9 +499,7 @@ async function buscarSeccion(datosEntrada) {
       const corriente_maxima = parseFloat(item.corriente_maxima.toString().replace(",", "."));
       return corriente_maxima > corrientesinfactor;
     });
-    let seccionOriginal = parseFloat(seccionProyecto.seccion_mm2.toString().replace(",", "."));
-    let capacidadMaxCond = parseFloat(seccionProyecto.corriente_maxima.toString().replace(",", "."));
-    if (!itemS1) {
+    if (!itemS1 || !seccionProyecto) {
       const advertencia = `
         <p class="fs-6 text-danger fw-semibold text-center">
           <i class="bi bi-exclamation-triangle-fill me-2"></i>
@@ -511,6 +509,9 @@ async function buscarSeccion(datosEntrada) {
       mostrar_resultados(advertencia, "", "", true);
       return;
     }
+    let seccionOriginal = parseFloat(seccionProyecto.seccion_mm2.toString().replace(",", "."));
+    let capacidadMaxCond = parseFloat(seccionProyecto.corriente_maxima.toString().replace(",", "."));
+    
 
 
     let S1 = parseFloat(itemS1.seccion_mm2.toString().replace(",", "."));
@@ -976,6 +977,7 @@ function ocultarResultadosAleatorio(){
   })
 }
 ocultarResultadosAleatorio();
+
 
 
 
