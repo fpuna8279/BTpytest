@@ -173,7 +173,7 @@ document.getElementById("potDecl").addEventListener("click", function () {
     mostrarCardResultados();
   } else{
     document.getElementById("resPotDeclarada").textContent = `- - - kW`;
-    document.getElementById("resTipoConexion").textContent = `Trifásico (excede el limite de 40kW de potencia instalada para baja tensión, contactese con la ANDE)`;
+    document.getElementById("resTipoConexion").textContent = `Trifásico (excede el limite de 40kW de potencia declarada para baja tensión, contactese con la ANDE)`;
     document.getElementById("resCorriente").textContent = `- - - A`;
     mostrarCardResultados();
     return;
@@ -214,4 +214,5 @@ function mostrarCardResultados() {
   verifDespliegue.classList.remove("d-none");
   void verifDespliegue.offsetWidth;
   verifDespliegue.classList.add("activo");
+
 }
