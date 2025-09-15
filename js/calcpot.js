@@ -161,9 +161,10 @@ document.getElementById("potDecl").addEventListener("click", function () {
   let potenciaInstalada = calcularPotInst();
   let potInstKw = potenciaInstalada/1000;
   let factorDemanda = obtenerFactorDemanda(potInstKw);
+  let potenciaDemanda = potInstKw*obtenerFactorDemanda(potInstKw);
   if (factorDemanda && potInstKw <= 40 ){
    
-    let potenciaDemanda = potInstKw*obtenerFactorDemanda(potInstKw);
+    
     let conexion = tipoDeRed(potInstKw);
     let corrienteDemanda = corrienteDem(conexion, potenciaDemanda);
     
@@ -190,7 +191,7 @@ function obtenerFactorDemanda(potInstKw){
 function tipoDeRed(potInstKw){
   if (potInstKw <= 10){
     return "Monofásico"
-  }else if (potInstKw <= 40){
+  }else if (potInstKw > 10){
     return "Trifásico"
 
   }
@@ -216,3 +217,4 @@ function mostrarCardResultados() {
   verifDespliegue.classList.add("activo");
 
 }
+
