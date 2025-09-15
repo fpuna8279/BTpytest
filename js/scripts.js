@@ -750,7 +750,7 @@ function calcularSeccionCaida(I_proy, L, tipoRed, criterio_ajustado, capacidades
     
   } else if (tipoRed === "3" || tipoRed === "4") {
     V_nominal = 380;
-    mult = Math.sqrt(3);
+    mult = 1;
     deltaVmaximo = 380*(criterio_ajustado/100);
     
   }
@@ -977,6 +977,7 @@ function ocultarResultadosAleatorio(){
   })
 }
 ocultarResultadosAleatorio();
+
 
 
 
