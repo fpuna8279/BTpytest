@@ -153,7 +153,8 @@ const factoresDemanda = [
   { desde: 7.2, hasta: 12, factor: 0.85 },
   { desde: 12, hasta: 20, factor: 0.8 },
   { desde: 20, hasta: 30, factor: 0.75 },
-  { desde: 30, hasta: 50, factor: 0.7 }
+  { desde: 30, hasta: 50, factor: 0.7 },
+  { desde: 50, hasta: 80, factor: 0.65 }
 ];
 
 document.getElementById("potDecl").addEventListener("click", function () {
@@ -162,7 +163,7 @@ document.getElementById("potDecl").addEventListener("click", function () {
   let potInstKw = potenciaInstalada/1000;
   let factorDemanda = obtenerFactorDemanda(potInstKw);
   let potenciaDemanda = potInstKw*obtenerFactorDemanda(potInstKw);
-  if (factorDemanda && potInstKw <= 40 ){
+  if (factorDemanda && potenciaDemanda <= 40 ){
    
     
     let conexion = tipoDeRed(potInstKw);
@@ -215,6 +216,4 @@ function mostrarCardResultados() {
   verifDespliegue.classList.remove("d-none");
   void verifDespliegue.offsetWidth;
   verifDespliegue.classList.add("activo");
-
 }
-
