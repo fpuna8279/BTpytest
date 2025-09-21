@@ -45,7 +45,6 @@
 
                   <h6 class="fw-bold mb-2">Tipo de conductor</h6>
                   <p>Se consideran exclusivamente <strong>conductores de cobre</strong>.  
-                  La resistividad adoptada para los cálculos de caída de tensión es <strong>0,0175Ω·mm²/m</strong>.  
                   No se contemplan conductores de aluminio ni de otros materiales.</p>
                   <h6 class="fw-bold mb-2 mt-3">Factor de potencia asumido</h6>
                   <p>Se adoptó un valor de 0,92 conforme al mínimo exigido por el Pliego de Tarifas N.º 21 de la ANDE para el factor de potencia medio 
@@ -169,7 +168,7 @@
                   </div>
 
                 <h6 class="fw-bold mb-2 mt-3">Determinación del tipo de red</h6>
-                <p>Según la potencia instalada total:</p>
+                <p>Según la potencia declarada:</p>
                 <ul>
                   <li><strong>Hasta 10 kW:</strong> Monofásico.</li>
                   <li><strong>Entre 10 y 40 kW:</strong> Trifásico.</li>
@@ -199,7 +198,7 @@
                   En instalaciones típicas de baja tensión <strong>(residenciales o comerciales pequeñas), no se recomienda ni se permite el uso de aluminio.</strong>
                 </p>
                 <ul>
-                  <li><strong>Cobre:</strong> Material preferido por su alta conductividad (ρ = 0,0175 Ω·mm²/m), flexibilidad y durabilidad.</li>
+                  <li><strong>Cobre:</strong> Material preferido por su alta conductividad, flexibilidad y durabilidad.</li>
                   <li><strong>Aluminio:</strong> Permitido solo en ciertas condiciones segun los ítems <strong>6.2.3.8.1 y 6.2.3.8.2</strong> de la norma:
                     <ul>
                       <li>En instalaciones industriales: sección mínima 16 mm², alimentación desde subestación o fuente propia, con personal calificado (BA5).</li>
@@ -456,7 +455,7 @@
                   <p class="fw-bold mt-4">Consideraciones importantes:</p>
                   <ul>
                     <li>Si el neutro está significativamente cargado (por armónicos de tercer orden o múltiplos mayores al 15% e inferiores a 33%), debe aplicarse un <strong>factor de corrección de 0,86</strong> y como 
-                    no existen tablas específicas para 4 conductores cargados en las Tablas 36-39 de la norma, se aplica dicho factor correctivo <strong>a las capacidades de conduccion de 3 conductores cargados</strong>.</li>
+                    no existen tablas específicas para 4 conductores cargados en las Tablas 36 a 39 de la norma, se aplica dicho factor correctivo <strong>a las capacidades de conduccion de 3 conductores cargados</strong>.</li>
                     <li class="fw-semibold">Esta corrección es independiente del tipo de método de instalación utilizado y se aplica (métodos A1 a G).</li>
                   </ul>
                                 
@@ -707,30 +706,41 @@
                 
                 <hr class="my-4">
                 
-                <h4 class="mb-3">Uso de reactancia en el cálculo de caída de tensión</h4>
-                
-                <p>
-                  La caída de tensión depende de la resistencia (R) y la reactancia (X) del conductor.
-                </p>
-                
-                <p class="fw-bold">¿Cuándo considerar solo la resistencia?</p>
-                <ul>
-                  <li>En circuitos normales de baja tensión (iluminación, tomacorrientes), la resistencia domina el fenómeno de caída de tensión.</li>
-                  <li>La reactancia es muy pequeña comparada con la resistencia, especialmente en conductores de cobre y trayectos cortos o medianos.</li>
-                  <li>Por ello, en la mayoría de los cálculos generales, se desprecia la reactancia para simplificar.</li>
-                </ul>
-                
-                <p class="fw-bold">¿Cuándo considerar también la reactancia?</p>
-                <ul>
-                  <li>En circuitos de arranque de motores, la corriente es muy alta y el factor de potencia inicial es muy bajo (cos ϕ ≈ 0,35).</li>
-                  <li>En esas condiciones, el efecto inductivo (reactancia) se vuelve importante y debe ser incluido en el cálculo de caída de tensión.</li>
-                  <li>El cálculo correcto para motores debe utilizar la fórmula completa: <br>
-                    <strong>ΔU = (R x cosϕ + X x senϕ) x I x L x √3</strong> (trifásico)</li>
-                </ul>
-                
-                <p>
-                  Considerar la reactancia en arranque de motores ayuda a prever caídas de tensión más realistas y evitar fallas de arranque o daños en el motor.
-                </p>
+                <h4 class="mb-3">Cálculo de la caída de tensión</h4>
+
+                  <p>
+                    La caída de tensión en un circuito eléctrico se produce por la resistencia (R) y la reactancia (X) del conductor.
+                    La fórmula general adoptada es:
+                  </p>
+
+                  <p class="text-center fw-bold">
+                    ΔU = m · I · L · (R · cosϕ + X · senϕ)
+                  </p>
+
+                  <ul>
+                    <li><strong>m:</strong> 2 para circuitos monofásicos, 1 para trifásicos.</li>
+                    <li><strong>I:</strong> corriente de proyecto (o corriente de arranque en motores).</li>
+                    <li><strong>L:</strong> longitud del circuito (m).</li>
+                    <li><strong>R = ρ/S:</strong> resistencia eléctrica, con ρ = 0,0225 Ω·mm²/m para cobre en servicio.</li>
+                    <li><strong>X = λ/S:</strong> reactancia del conductor, con λ = 0,00008 Ω/m.</li>
+                    <li><strong>S:</strong> sección del conductor (mm²).</li>
+                    <li><strong>cosϕ:</strong> 0,92 en condiciones normales o 0,35 en arranque de motores.</li>
+                  </ul>
+
+                  <h6>Condiciones normales (iluminación, tomacorrientes, cargas generales)</h6>
+                  <ul>
+                    <li>Se usa <strong>I = I<sub>proy</sub></strong> con cosϕ ≈ 0,92.</li>
+                    <li>La componente resistiva predomina, pero se mantiene la reactancia en el cálculo para mayor precisión.</li>
+                    <li>La caída debe cumplir con los límites normativos (4 %, 5 % o 7 % según el caso).</li>
+                  </ul>
+
+                  <h6>Condiciones especiales (arranque de motores)</h6>
+                  <ul>
+                    <li>Se considera una corriente de arranque <strong>I ≈ 6 · I<sub>proy</sub></strong> y cosϕ ≈ 0,35.</li>
+                    <li>En estas condiciones, la reactancia (<strong>X · senϕ</strong>) se vuelve relevante y puede aumentar la caída de tensión.</li>
+                    <li>El límite máximo permitido es del <strong>10 %</strong>.</li>
+                  </ul>
+
                 
                 
               
@@ -744,7 +754,10 @@
       
         </div>
       </div>
-      
+    <footer class="text-center mt-5 p-4 bg-light">
+        <p class="mb-1">&copy; 2025 BTpy Online - Todos los derechos reservados</p>
+        <small>Desarrollado como parte del Proyecto de Tesis de Ingeniería Eléctrica - Facultad Politécnica</small>
+    </footer>      
 
 
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>     
