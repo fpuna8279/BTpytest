@@ -63,7 +63,7 @@
                 <label for="corriente" class="form-label mb-0">Corriente (A):</label>
               </div>
               <div class="col-sm-8">
-                <input type="number" id="corriente" class="form-control border-primary" placeholder="Ingrese la corriente" step="any" required>
+                <input type="number" id="corriente" class="form-control border-primary" placeholder="Ingrese la corriente" min="0" step="any" required>
               </div>              
             </div>
 
@@ -1081,7 +1081,7 @@
                     <!-- Campos por caida de tension -->
                     <div id="porCaidaTension" class="factCorreccion card-body d-flex justify-content-center flex-column d-none ocultar">
                       <div class="form-floating mb-3">
-                        <input type="number" class="form-control" id="longCable" placeholder="" step="any" required disabled>
+                        <input type="number" class="form-control" id="longCable" placeholder="" min="0" step="any" required disabled>
                         <label for="longCable">Longitud (metros):</label>
                       </div>
                       <!-- seleccion de criterios -->
@@ -1151,5 +1151,6 @@
 
     </body>
 </html>
+
 
 
